@@ -1,12 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     font-family: Avenir, sans-serif;
 }
 
+/* header */
+
+header{
+    height: 110px;
+}
+
+#logo{
+    font-family: 'Playfair Display', serif;
+    float: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: rgb(103, 7, 7);
+    margin: 15px 20px;
+}
+
+#logo > span{
+    letter-spacing: 5.2px;
+
+    /* reduce the height of word "Edinburgh" in logo */
+    display: inline-block;
+    transform: scale(1, .8);
+}
+
+nav{
+    float: right;
+}
+
 #welcome{
     height: 500px;
     background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
+}
+
+#welcome h1{
+    margin: 0;
 }
 
 .section-image{
