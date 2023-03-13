@@ -3,3 +3,12 @@ body{
     padding: 0;
     font-family: Avenir, sans-serif;
 }
+
+#welcome{
+    height: 500px;
+    background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
+}
+
+.section-image{
+    height: 350px;
+}
