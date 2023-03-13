@@ -102,6 +102,11 @@ nav a:hover{
     transform: scale(1, .8);
 }
 
+/* book club section */
+
+#main-club-cover{
+    height: 550px;
+}
 
 .section-image{
     height: 350px;
