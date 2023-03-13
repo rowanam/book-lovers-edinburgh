@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat&family=Playfair+Display:wght@500&display=swap');
 
 body{
     margin: 0;
@@ -58,13 +58,47 @@ nav a:hover{
     text-decoration: underline;
 }
 
+/* welcome section */
+
 #welcome{
     height: 500px;
     background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
 }
 
+#welcome{
+    color: white;
+}
+
 #welcome h1{
-    margin: 0;
+    margin: 190px 0 0 0;
+    float: left;
+    background-color: #3e3e3e;
+    padding: 0 15px 15px 50px;
+}
+
+#heading-logo{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+#heading-welcome-to{
+    font-family: 'Allison', cursive;
+    text-transform: initial;
+    font-weight: 400;
+}
+
+#heading-edin{
+    letter-spacing: 8.8px;
+
+    display: inline-block;
+    transform: scale(1, .8);
+}
+
+#desc-box{
+    float: right;
 }
 
 .section-image{
