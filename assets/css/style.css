@@ -102,30 +102,6 @@ nav a:hover{
     transform: scale(1, .8);
 }
 
-#desc-box-outer{
-    float: right;
-    background-color: rgba(52, 6, 6, .5);
-    height: 400px;
-    width: 450px;
-    margin: 50px 170px 0 0;
-}
-
-#desc-box{
-    width: 350px;
-    margin: auto;
-    padding-top: 25px;
-}
-
-#desc-box h2{
-    text-align: center;
-}
-
-#desc-box li{
-    list-style-type: square;
-    line-height: 40px;
-}
-
-
 
 .section-image{
     height: 350px;
