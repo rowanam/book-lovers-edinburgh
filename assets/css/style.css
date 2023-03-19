@@ -11,7 +11,21 @@ h3{
     letter-spacing: .5px;
 }
 
+.internal-link{
+    text-decoration: none;
+    color: rgb(103, 7, 7);
+}
+
+.internal-link:hover{
+    text-decoration: underline;
+}
+
 /* reusable styles */
+
+/* this shade of maroon is the color of the logo and a main theme color */
+.maroon-theme{
+    color: rgb(103, 7, 7);
+}
 
 .ital{
     font-style: italic;
@@ -31,6 +45,10 @@ h3{
 
 .align-top{
     vertical-align: top;
+}
+
+.no-margin{
+    margin: 0;
 }
 
 /* header */
@@ -169,6 +187,8 @@ nav a:hover{
 
     /* this value was chosen because it is the approx width of the image */
     left: 362px;
+
+    padding-left: 4%;
 }
 
 #main-club-cover{
@@ -187,6 +207,8 @@ nav a:hover{
     
     /* pushes the whole text content to the bottom of the div so it is positioned below the heading */
     align-self: flex-end;
+
+    padding-left: 4%;
 }
 
 #club-home-info{
