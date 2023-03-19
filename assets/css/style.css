@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;700&family=Playfair+Display:wght@500&display=swap');
 
 body{
     margin: 0;
@@ -64,6 +64,23 @@ nav a:hover{
     text-decoration: underline;
 }
 
+/* home page sections */
+
+.home-page-section{
+    height: 700px;
+}
+
+.section-image{
+    height: 350px;
+}
+
+.home-section-header{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: rgb(103, 7, 7);
+    margin: 0;
+}
+
 /* welcome section */
 
 #welcome{
@@ -104,10 +121,51 @@ nav a:hover{
 
 /* book club section */
 
-#main-club-cover{
-    height: 550px;
+#club-section{
+    /* this code centers the content in the section horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-image{
-    height: 350px;
+#club-outer{
+    width: 80%;
+    height: 550px;
+
+    /* this line of code is necessary to position the header */
+    position: relative;
+
+    /* this line of code is necessary to position the rest of the text and push it to the bottom of the section, below the header, using the self-align property */
+    display: flex;
+}
+
+#club-home-header{
+    /* this code positions the header to the right of the image */
+    position: absolute;
+
+    /* this value was chosen because it is the approx width of the image */
+    left: 362px;
+}
+
+#main-club-cover{
+    height: 550px;
+    float: left;
+}
+
+#club-home-text{    
+    /* the height of the content div minus the height of the header */
+    height: 500px;
+
+    /* this code pushes the last paragraph to the bottom of the section */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+    /* pushes the whole text content to the bottom of the div so it is positioned below the heading */
+    align-self: flex-end;
+}
+
+#club-home-info{
+    /* this code is necessary so the last "Learn more..." paragraph doesn't render next to this div */
+    width: 100%;
 }
