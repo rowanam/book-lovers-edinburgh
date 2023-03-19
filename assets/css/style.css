@@ -11,6 +11,28 @@ h3{
     letter-spacing: .5px;
 }
 
+/* reusable styles */
+
+.ital{
+    font-style: italic;
+}
+
+.space-before{
+    padding-left: 8px;
+}
+
+.space-after{
+    padding-right: 8px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.align-top{
+    vertical-align: top;
+}
+
 /* header */
 
 header{
