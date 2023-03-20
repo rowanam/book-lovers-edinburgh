@@ -11,15 +11,6 @@ h3{
     letter-spacing: .5px;
 }
 
-.internal-link{
-    text-decoration: none;
-    color: rgb(103, 7, 7);
-}
-
-.internal-link:hover{
-    text-decoration: underline;
-}
-
 /* reusable styles */
 
 /* this shade of maroon is the color of the logo and a main theme color */
@@ -53,6 +44,22 @@ h3{
 
 .align-center{
     text-align: center;
+}
+
+.internal-link{
+    text-decoration: none;
+}
+
+.internal-link:hover{
+    text-decoration: underline;
+}
+
+.internal-link-maroon{
+    color: rgb(103, 7, 7);
+}
+
+.internal-link-light{
+    color: #fff;
 }
 
 /* header */
