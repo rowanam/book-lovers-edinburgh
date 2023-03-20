@@ -215,3 +215,9 @@ nav a:hover{
     /* this code is necessary so the last "Learn more..." paragraph doesn't render next to this div */
     width: 100%;
 }
+
+/* recommendations section */
+
+.rec-cover-image{
+    height: 300px;
+}

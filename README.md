@@ -106,3 +106,35 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+------
+
+## Image Attributions
+
+**Goodreads**
+
+"The Kingdoms" by Natasha Pulley book cover
+- source website <a href="https://www.goodreads.com/book/show/54680112-the-kingdoms?from_search=true&from_srp=true&qid=GVUkcXrNbT&rank=1" target="_blank">link</a>
+
+**Amazon**
+
+"In Arabian Nights" by Tahir Shah book cover
+- source website <a href="https://www.amazon.co.uk/Arabian-Nights-Tahir-Shah/dp/0553818767" target="_blank">link</a>
+
+**Penguin**
+
+"The Thursday Murder Club" by Richard Osman book cover
+- course website <a href="https://www.penguin.co.uk/books/315815/the-thursday-murder-club-by-osman-richard/9780241988268" target="_blank">link</a>
+
+------
+
+## Description Attributions
+
+"In Arabian Nights" home page description ("In this entertaining... mythical Arabian Nights.")
+- source: Goodreads (<a href="https://www.goodreads.com/book/show/1332455.In_Arabian_Nights?from_search=true&from_srp=true&qid=3TiHOyIRz8&rank=1" target="_blank">page link</a>)
+
+"The Thursday Murder Club" home page description ("Laced with killer... property developer.")
+- source: Waterstones (<a href="https://www.waterstones.com/book/the-thursday-murder-club/richard-osman/9780241988268" target="_blank">page link</a>)
+
+"Small Pleasures" home page description ("A frustrated reporter... happiness.")
+- source: Waterstones (<a href="https://www.waterstones.com/book/small-pleasures/clare-chambers/9781474613903" target="_blank">page link</a>)
