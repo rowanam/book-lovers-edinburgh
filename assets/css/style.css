@@ -68,6 +68,10 @@ h3{
     color: #fff;
 }
 
+.no-margin-top{
+    margin-top: 0;
+}
+
 /* header */
 
 header{
@@ -212,7 +216,6 @@ nav a:hover{
 #club-home-header{
     /* this code positions the header to the right of the image */
     position: absolute;
-
     /* this value was chosen because it is the approx width of the image */
     left: 362px;
 
@@ -272,4 +275,34 @@ nav a:hover{
 
 .rec-cover-image{
     height: 300px;
+}
+
+/* bookstores section */
+
+#stores-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stores-content-wrapper{
+    width: 80%;
+    height: 600px;
+}
+
+#stores-section-heading{
+    margin-bottom: 50px;
+}
+
+#stores-home-image{
+    height: 400px;
+    float: right;
+}
+
+#stores-home-text{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-right: 4%;
 }
