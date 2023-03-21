@@ -128,6 +128,12 @@ Happy coding!
 
 ------
 
+## Future Fixes
+
+Home page footer newsletter signup: form and description are spaced apart using a margin. would prefer to do this using flexbox space-between, but when I changed the footer-form-wrapper div display property to flex, the whole div was shifted to the left, and I don't know why.
+
+------
+
 ## Description Attributions
 
 "In Arabian Nights" home page description ("In this entertaining... mythical Arabian Nights.")

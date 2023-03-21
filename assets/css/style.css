@@ -48,6 +48,14 @@ h3{
     margin: 0;
 }
 
+.no-margin-top{
+    margin-top: 0;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0;
+}
+
 .align-center{
     text-align: center;
 }
@@ -66,10 +74,6 @@ h3{
 
 .internal-link-light{
     color: #fff;
-}
-
-.no-margin-top{
-    margin-top: 0;
 }
 
 /* header */
@@ -305,4 +309,67 @@ nav a:hover{
     flex-wrap: wrap;
     align-content: space-between;
     padding-right: 4%;
+}
+
+/* footer */
+
+footer{
+    height: 110px;
+    background-color: rgb(103, 7, 7);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > div{
+    display: inline-block;
+}
+
+/* #footer-contact{
+    float: left;
+} */
+
+#footer-newsletter-signup{
+    display: flex;
+    align-items: center;
+}
+
+#footer-newsletter-signup-heading{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.form-space-right{
+    margin-right: 30px;
+}
+
+footer input{
+    border: rgb(103, 7, 7);
+}
+
+#newsletter-desc{
+    font-size: 0.9rem;
+    margin: 6px 0 0 0; 
+}
+
+#footer-social-media{
+    vertical-align: top;
+}
+
+#footer-social-media ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 7vw;
+}
+
+#footer-social-media li{
+    display: inline-block;
+    list-style: none;
+}
+
+#footer-social-media a{
+    color: #fff;
+    font-size: 1.3rem;
 }
