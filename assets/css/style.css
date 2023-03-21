@@ -375,3 +375,62 @@ footer input{
     color: #fff;
     font-size: 1.3rem;
 }
+
+/* responsiveness */
+
+/* this width was chosen because the club section header breaks onto two lines here */
+@media (max-width: 1288px){
+    #club-home-text{
+        height: 450px;
+    }
+}
+
+/* club section header breaks onto three lines here */
+@media (max-width: 982px){
+    #club-home-text{
+        height: 400px;
+    }
+}
+
+@media (max-width: 907px){
+    #main-club-cover{
+        height: 450px;
+        position: relative;
+        top: 50px;
+    }
+
+    #club-home-header{
+        left: 296px;
+        padding-left: 36px;
+    }
+
+    #club-home-text{    
+        padding-left: 36px;
+    }
+}
+
+@media (max-width: 833px){
+    #club-outer{
+        flex-wrap: wrap;
+    }
+    
+    #club-home-header{
+        position: static;
+        padding: 0;
+    }
+
+    #main-club-cover{
+        position: static;
+        float: left;
+    }
+
+    #club-home-text{
+        width: calc(94% - 295px);
+        align-self: flex-start;
+        height: 450px;
+    }
+
+    #club-first-p{
+        margin-top: 0;
+    }
+}
