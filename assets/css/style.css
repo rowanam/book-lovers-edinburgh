@@ -328,10 +328,6 @@ footer > div{
     display: inline-block;
 }
 
-/* #footer-contact{
-    float: left;
-} */
-
 #footer-newsletter-signup{
     display: flex;
     align-items: center;
