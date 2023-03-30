@@ -208,7 +208,7 @@ nav a:hover{
     align-items: center;
 }
 
-#club-outer{
+#club-wrapper{
     width: 80%;
     height: 550px;
 
@@ -219,7 +219,7 @@ nav a:hover{
     display: flex;
 }
 
-#club-home-header{
+#club-section-heading{
     /* this code positions the header to the right of the image */
     position: absolute;
     /* this value was chosen because it is the approx width of the image */
@@ -261,7 +261,7 @@ nav a:hover{
     align-items: center;
 }
 
-#rec-content-wrapper{
+#rec-wrapper{
     width: 95%;
     height: 650px;
 }
@@ -291,7 +291,7 @@ nav a:hover{
     align-items: center;
 }
 
-#stores-content-wrapper{
+#stores-wrapper{
     width: 80%;
     height: 600px;
 }
@@ -382,11 +382,11 @@ footer input{
 }
 
 @media (max-width: 982px){
-    #club-outer{
+    #club-wrapper{
         flex-wrap: wrap;
     }
     
-    #club-home-header{
+    #club-section-heading{
         position: static;
         padding: 0;
         width: 100%;
