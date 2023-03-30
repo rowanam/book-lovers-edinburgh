@@ -212,45 +212,53 @@ nav a:hover{
     width: 80%;
     height: 550px;
 
-    /* this line of code is necessary to position the header */
+    /* this line of code is necessary to position the image */
     position: relative;
 
-    /* this line of code is necessary to position the rest of the text and push it to the bottom of the section, below the header, using the self-align property */
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #club-section-heading{
-    /* this code positions the header to the right of the image */
-    position: absolute;
-    /* this value was chosen because it is the approx width of the image */
-    left: 362px;
+    /* the value of 362px was chosen because it is the approx width of the image */
+    width: calc(100% - 362px);
+    
+    /* pushes the heading to the right */
+    align-self: flex-end;
 
     padding-left: 4%;
+    box-sizing: border-box;
 }
 
 #main-club-cover{
     height: 550px;
-    float: left;
+    position: absolute;
 }
 
-#club-home-text{    
-    /* the height of the content div minus the height of the header */
-    height: 500px;
+#club-home-text{
+    width: calc(100% - 362px);
+    align-self: flex-end;
+    padding-left: 4%;
+    box-sizing: border-box;
+
+    /* makes content take up the remaining vertical space */
+    flex-grow: 1;
 
     /* this code pushes the last paragraph to the bottom of the section */
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    
-    /* pushes the whole text content to the bottom of the div so it is positioned below the heading */
-    align-self: flex-end;
-
-    padding-left: 4%;
 }
 
 #club-home-info{
     /* this code is necessary so the last "Learn more..." paragraph doesn't render next to this div */
     width: 100%;
+}
+
+/* this code makes the total width of the date and location information blocks the same so that they will break onto new lines at the same time */
+#club-section-date{
+    width: 264.42px;
 }
 
 /* recommendations section */
@@ -374,39 +382,59 @@ footer input{
 
 /* responsiveness */
 
-/* this width was chosen because the club section header breaks onto two lines here */
-@media (max-width: 1288px){
-    #club-home-text{
-        height: 450px;
-    }
-}
-
+/* this width was chosen because the club section heading would break onto three lines here */
 @media (max-width: 982px){
     #club-wrapper{
-        flex-wrap: wrap;
+        flex-direction: row;
     }
     
     #club-section-heading{
-        position: static;
-        padding: 0;
         width: 100%;
+        padding: 0;
         text-align: center;
+
+        /* this code pushes the heading slightly above where it would normally sit; for stylistic purposes only */
+        position: relative;
+        bottom: 20px;
     }
 
     #main-club-cover{
-        height: 450px;
         position: static;
-        float: left;
+        height: 500px;
     }
 
     #club-home-text{
-        width: calc(94% - 295px);
         align-self: flex-start;
-        height: 450px;
+        height: 500px;
         padding-left: 36px;
     }
 
     #club-first-p{
         margin-top: 0;
+    }
+}
+
+@media (max-width: 830px){
+    .home-page-section{
+        height: 1200px;
+    }
+
+    #club-wrapper{
+        height: 1000px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 95%;
+    }
+
+    #main-club-cover{
+        height: 450px;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #club-home-text{
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
     }
 }

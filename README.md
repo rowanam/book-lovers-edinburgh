@@ -132,6 +132,10 @@ Happy coding!
 
 Home page footer newsletter signup: form and description are spaced apart using a margin. would prefer to do this using flexbox space-between, but when I changed the footer-form-wrapper div display property to flex, the whole div was shifted to the left, and I don't know why.
 
+Home page, book club section:
+- used a workaround to make date and location information blocks the same total width
+- in future, would want to find a cleaner solution
+
 ------
 
 ## Description Attributions
