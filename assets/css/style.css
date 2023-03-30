@@ -282,8 +282,25 @@ nav a:hover{
     text-align: center;
 }
 
+#rec-books-wrapper h3{
+    margin-bottom: 5px;
+}
+
+.rec-home-author{
+    margin-top: 0;
+}
+
+#rec-books-wrapper h3,
+.rec-home-author-name{
+    color: rgb(103, 7, 7);
+}
+
 .rec-cover-image{
     height: 300px;
+}
+
+.rec-book-desc{
+    font-size: 0.9rem;
 }
 
 /* bookstores section */
@@ -427,6 +444,62 @@ footer input{
 
     #club-first-p{
         margin-top: 0;
+    }
+
+    /* recommendations section */
+
+    #rec-wrapper{
+        width: 90%;
+    }
+    
+    #rec-books-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rec-home-book-div{
+        width: 60%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+
+        /* to push the text to the right of the book images */
+        margin-left: 150px;
+    }
+
+    .rec-home-author{
+        margin: 5px 0 0 0;
+    }
+
+    .rec-right{
+        text-align: right;
+        margin: 0 150px 0 0;
+        align-self: flex-end;
+    }
+
+    .rec-cover-image{
+        position: absolute;
+        left: -140px;
+        height: 220px;
+    }
+
+    #rec-home-book-one-cover{
+        top: 20px;
+    }
+
+    #rec-home-book-two-cover{
+        top: -5px;
+    }
+
+    #rec-home-book-three-cover{
+        top: -20px;
+    }
+
+    .rec-right .rec-cover-image{
+        left: auto;
+        right: -140px;
     }
 }
 
