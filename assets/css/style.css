@@ -384,6 +384,27 @@ footer input{
 
 /* this width was chosen because the club section heading would break onto three lines here */
 @media (max-width: 982px){
+    
+    /* header */
+    
+    #logo{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 25px 20px;
+    }
+    
+    #logo > span{
+        letter-spacing: 3.9px;
+    }
+    
+    nav li{
+        font-size: 16px;
+        line-height: 16px;
+        margin: 47px 0;
+    }
+
+    /* book club section */
+    
     #club-wrapper{
         flex-direction: row;
     }
@@ -419,6 +440,37 @@ footer input{
         height: 1200px;
     }
 
+    /* header */
+
+    #logo{
+        font-size: 25px;
+        line-height: 25px;
+        margin: 15px 20px;
+    }
+    
+    #logo > span{
+        letter-spacing: 3.2px;
+    }
+    
+    nav{
+        float: left;
+        width: 100%;
+    }
+    
+    nav ul{
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+    
+    nav li{
+        font-size: 13px;
+        line-height: 13px;
+        padding: 0;
+        margin: 0 15px 0 0;
+    }
+
+    /* book club section */
+    
     #club-wrapper{
         height: 1000px;
         flex-direction: column;
