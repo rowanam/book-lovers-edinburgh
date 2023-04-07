@@ -269,7 +269,8 @@ nav a:hover{
     height: 650px;
 }
 
-#rec-section-heading{
+#rec-section-heading,
+#rec-section-desc{
     text-align: center;
 }
 
@@ -282,7 +283,7 @@ nav a:hover{
     text-align: center;
 }
 
-#rec-books-wrapper h3{
+.rec-home-book-title{
     margin-bottom: 5px;
 }
 
@@ -290,7 +291,7 @@ nav a:hover{
     margin-top: 0;
 }
 
-#rec-books-wrapper h3,
+.rec-home-book-title,
 .rec-home-author-name{
     color: rgb(103, 7, 7);
 }
@@ -466,7 +467,7 @@ footer input{
         position: relative;
 
         /* to push the text to the right of the book images */
-        margin-left: 150px;
+        left: 150px;
     }
 
     .rec-home-author{
@@ -475,8 +476,9 @@ footer input{
 
     .rec-right{
         text-align: right;
-        margin: 0 150px 0 0;
         align-self: flex-end;
+        left: auto;
+        right: 150px;
     }
 
     .rec-cover-image{
@@ -573,5 +575,107 @@ footer input{
         width: 100%;
         margin-top: 20px;
         height: auto;
+    }
+
+    /* recommendations section */
+
+    #rec-section{
+        height: fit-content;
+    }
+    
+    #rec-wrapper{
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+    }
+
+    #rec-section-heading{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    #rec-books-wrapper{
+        height: 800px;
+        justify-content: space-around;
+        width: 85%;
+    }
+
+    .rec-home-book-div{
+        height: 220px;
+        left: 150px;
+        width: calc(100% - 150px);
+    }
+
+    .rec-home-book-title{
+        margin-top: 0;
+    }
+
+    .rec-right{
+        text-align: left;
+        align-self: auto;
+        right: auto;
+    }
+
+    #rec-home-book-two-cover{
+        right: auto;
+        left: -140px;
+    }
+
+    #rec-home-book-one-cover,
+    #rec-home-book-two-cover,
+    #rec-home-book-three-cover{
+        top: 0;
+    }
+}
+
+/* this width was chosen because the recommendations section heading breaks onto two lines here */
+@media (max-width: 601px){
+    /* recommendations section */
+    
+    #rec-books-wrapper{
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+
+    #rec-section-heading,
+    #rec-section-desc{
+        text-align: left;
+    }
+
+    #rec-section-desc{
+        margin-bottom: 15px;
+    }
+    
+    .rec-home-book-div{
+        left: auto;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+    .rec-home-book-title{
+        font-size: 1.5rem;
+    }
+
+    .rec-home-author{
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+    /* this code moves the book cover images to the center of the page */
+    .rec-home-book-div a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .rec-cover-image{
+        position: static;
+        height: 350px;
+        margin: 10px 0;
     }
 }
