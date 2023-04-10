@@ -344,11 +344,12 @@ nav a:hover{
 /* footer */
 
 footer{
-    height: 110px;
+    height: 220px;
     background-color: rgb(103, 7, 7);
     color: #fff;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -359,6 +360,7 @@ footer > div{
 #footer-newsletter-signup{
     display: flex;
     align-items: center;
+    margin: 16px 0;
 }
 
 #footer-newsletter-signup-heading{
@@ -371,11 +373,23 @@ footer > div{
 }
 
 footer input{
-    border: rgb(103, 7, 7);
+    border: rgb(103, 7, 7) solid 1px;
+}
+
+#newsletter-signup-button{
+    background-color: #fff;
+    color: rgb(103, 7, 7);
+    font-family: Montserrat, sans-serif;
+}
+
+#newsletter-signup-button:hover{
+    background-color: rgb(103, 7, 7);
+    color: #fff;
+    border: #fff solid 1px;
 }
 
 #newsletter-desc{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 6px 0 0 0; 
 }
 
@@ -398,6 +412,10 @@ footer input{
 #footer-social-media a{
     color: #fff;
     font-size: 1.3rem;
+}
+
+#footer-social-media a:hover{
+    color: rgb(62, 62, 62);
 }
 
 /* responsiveness */
