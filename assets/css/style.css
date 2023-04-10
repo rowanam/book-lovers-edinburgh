@@ -366,6 +366,12 @@ footer > div{
 #footer-newsletter-signup-heading{
     display: inline-block;
     margin: 0 20px 0 0;
+    width: 140px;
+}
+
+#footer-newsletter-signup-heading span{
+    display: inline-block;
+    width: 100%;
 }
 
 .form-space-right{
@@ -401,7 +407,7 @@ footer input{
     padding: 0;
     display: flex;
     justify-content: space-between;
-    width: 7vw;
+    width: 100px;
 }
 
 #footer-social-media li{
@@ -707,6 +713,59 @@ footer input{
     #stores-learn-more{
         position: static;
         margin: 30px 0;
+    }
+
+    /* footer */
+
+    footer{
+        height: fit-content;
+    }
+
+    #footer-newsletter-signup{
+        flex-direction: column;
+    }
+
+    #footer-newsletter-signup-heading{
+        width: fit-content;
+        margin: 0 0 10px 0;
+    }
+
+    #footer-newsletter-signup-heading span{
+        display: inline;
+    }
+
+    #footer-form-wrapper{
+        max-width: 90vw;
+    }
+}
+
+/* this width was chosen because the footer newsletter description breaks onto two lines here */
+@media (max-width: 681px){
+    #footer-newsletter-signup-heading{
+        align-self: flex-start;
+    }
+
+    footer form{
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        justify-content: space-between;
+    }
+
+    #newsletter-signup-button{
+        width: fit-content;
+    }
+
+    #footer-social-media ul{
+        margin: 10px 0;
+    }
+
+    #footer-social-media a{
+        font-size: 1rem;
+    }
+
+    #copyright{
+        font-size: 0.8rem;
     }
 }
 
