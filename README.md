@@ -126,6 +126,14 @@ Happy coding!
 "The Thursday Murder Club" by Richard Osman book cover
 - course website <a href="https://www.penguin.co.uk/books/315815/the-thursday-murder-club-by-osman-richard/9780241988268" target="_blank">link</a>
 
+**Pexels**
+
+Book club about image 1
+- Photo by cottonbro studio (<a href="https://www.pexels.com/photo/woman-in-gray-robe-reading-book-4861330/" target="_blank">link</a>)
+
+Book club about image 2
+- Photo by Lisa Fotios: (<a href="https://www.pexels.com/photo/pink-rose-in-vase-centerpiece-on-brown-wooden-table-1024359/" target=_blank>link</a>)
+
 ------
 
 ## Future Fixes

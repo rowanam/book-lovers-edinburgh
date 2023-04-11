@@ -905,3 +905,36 @@ footer input{
     width: 80%;
     height: 550px;
 }
+
+/* about section */
+
+#club-page-about-section-wrapper{
+    position: relative;
+}
+
+#club-page-about-heading{
+    width: calc(100% - 400px);
+    float: right;
+}
+
+.club-page-about-image{
+    width: 400px;
+    float: left;
+}
+
+#club-page-about-image-two{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.club-page-about-text{
+    width: calc(100% - 400px);
+    float: right;
+}
+
+#club-page-about-heading,
+.club-page-about-text{
+    box-sizing: border-box;
+    padding-left: 30px;
+}
