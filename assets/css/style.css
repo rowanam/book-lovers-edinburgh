@@ -76,6 +76,25 @@ h3{
     color: #fff;
 }
 
+/* ALL PAGES */
+
+.section-heading{
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+.section-heading-dark{
+    color: rgb(103, 7, 7);
+}
+
+.section-heading-light{
+    color: white;
+}
+
 /* header */
 
 header{
@@ -131,6 +150,8 @@ nav a:hover{
     color: rgb(103, 7, 7);
     text-decoration: underline;
 }
+
+/* HOME PAGE */
 
 /* home page sections */
 
@@ -869,4 +890,18 @@ footer input{
     font-size: 40px;
     /* line-height: 70px; */
     font-weight: 500;
+}
+
+/* page main sections */
+
+.club-page-section{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.club-page-section-wrapper{
+    width: 80%;
+    height: 550px;
 }
