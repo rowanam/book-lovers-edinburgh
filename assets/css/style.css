@@ -19,24 +19,8 @@ h3{
     color: rgb(103, 7, 7);
 }
 
-.ital{
-    font-style: italic;
-}
-
-.space-before{
-    padding-left: 8px;
-}
-
-.space-after{
-    padding-right: 8px;
-}
-
 .inline-block{
     display: inline-block;
-}
-
-.align-top{
-    vertical-align: top;
 }
 
 .no-margin{
@@ -57,14 +41,11 @@ h3{
 
 .internal-link{
     text-decoration: none;
+    color: rgb(103, 7, 7);
 }
 
 .internal-link:hover{
     text-decoration: underline;
-}
-
-.internal-link-maroon{
-    color: rgb(103, 7, 7);
 }
 
 .internal-link-light{
@@ -325,8 +306,10 @@ footer input{
 
 /* ALL PAGES */
 
+/* page sections and wrappers */
+
 .page-section{
-    height: 700px;
+    height: fit-content;
     
     /* this code centers the content in the section horizontally and vertically */
     display: flex;
@@ -334,14 +317,26 @@ footer input{
     align-items: center;
 }
 
+.fixed-height-page-section{
+    height: 700px;
+}
+
 .dark-section{
     background-color: #dcdcdc;
 }
 
 .section-wrapper{
-    height: 550px;
+    height: fit-content;
+    min-height: 550px;
     width: 80%;
+    margin: 75px 0;
 }
+
+.fixed-height-section-wrapper{
+    height: 550px;
+}
+
+/* large page elements - headings, text blocks, images */
 
 .section-heading{
     text-transform: uppercase;
@@ -357,6 +352,62 @@ footer input{
 then move to the top of the section on smaller screen sizes */
 .level-top-heading-right{
     text-align: left;
+}
+
+/* this code is for the same as above, except headings that start to the left of and level with section images */
+.level-top-heading-left{
+    display: inline-block;
+}
+
+/* smaller element styles - inline styles, description tags, etc. */
+
+.top-bottom-flex-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.three-parts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one-third-part{
+    width: 33%;
+}
+
+.learn-more{
+    text-align: center;
+    margin: 35px 0 0 0;
+}
+
+/* this code is for information descriptors like "date", "location", "synopsis", etc. */
+.descriptor-tag{
+    font-style: italic;
+    display: inline-block;
+    padding-right: 8px;
+    vertical-align: top;
+}
+
+/* for names of sources, e.g. after quote */
+.text-source{
+    font-style: italic;
+}
+
+/* for names of sources that appear under their text, with a dash before the source name */
+.text-source-dash-under{
+    padding-left: 8px;
+}
+
+/* for quotes */
+.quote{
+    padding: 10px;
+}
+
+/* to italise book titles */
+.book-title-ital{
+    font-style: italic;
 }
 
 /* HOME PAGE */
@@ -562,6 +613,10 @@ then move to the top of the section on smaller screen sizes */
 
     #rec-wrapper{
         width: 90%;
+    }
+
+    #rec-section-heading{
+        margin: 0;
     }
     
     #rec-books-wrapper{
@@ -823,7 +878,7 @@ then move to the top of the section on smaller screen sizes */
 
 /* OTHER PAGES */
 
-#page-heading-section{
+.page-heading-section{
     height: 200px;
     background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
     color: white;
@@ -873,6 +928,44 @@ then move to the top of the section on smaller screen sizes */
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/* current book section */
+
+#current-book-cover{
+    height: 550px;
+    float: right;
+}
+
+#club-current-book-description{
+    box-sizing: border-box;
+    padding-right: 4%;
+
+    /* the value of 362px was chosen because it is the approx width of the image */
+    width: calc(100% - 362px);
+
+    height: 501px;
+}
+
+#club-current-book-reviews{
+    clear: both;
+    margin: 20px 0;
+    padding-bottom: 5px;
+    text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.want-to-buy{
+    text-align: center;
+    margin: 0 20px;
+    font-style: italic;
+}
+
+.or-lined{
+    text-transform: uppercase;
+    text-decoration: overline underline;
+    margin: 5px 0;
 }
 
 /* responsiveness */
@@ -934,6 +1027,10 @@ then move to the top of the section on smaller screen sizes */
 /* medium screen sizes */
 @media (max-width: 1000px){
     .section-wrapper{
+        margin: 50px 0;
+    }
+    
+    .fixed-height-section-wrapper{
         height: 600px;
     }
 
@@ -941,6 +1038,7 @@ then move to the top of the section on smaller screen sizes */
         text-align: center;
         width: 100%;
         float: none;
+        margin-bottom: 20px;
     }
 
     .level-top-heading-right{
