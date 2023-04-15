@@ -6,6 +6,7 @@ body{
     font-family: Montserrat, sans-serif;
 }
 
+h2,
 h3{
     font-family: 'Playfair Display', serif;
     letter-spacing: .5px;
@@ -344,7 +345,6 @@ footer input{
 
 .section-heading{
     text-transform: uppercase;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 2.3rem;
