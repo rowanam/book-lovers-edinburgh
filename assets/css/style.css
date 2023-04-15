@@ -844,22 +844,7 @@ then move to the top of the section on smaller screen sizes */
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     font-size: 40px;
-    /* line-height: 70px; */
     font-weight: 500;
-}
-
-/* page main sections */
-
-.club-page-section{
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.club-page-section-wrapper{
-    width: 80%;
-    height: 550px;
 }
 
 /* about section */
@@ -871,6 +856,9 @@ then move to the top of the section on smaller screen sizes */
 #club-page-about-heading,
 .club-page-about-text{
     box-sizing: border-box;
+
+    /* note: the reason padding is used here instead of margin is so the total size of content plus padding
+    can be caluclated using border-box, making it easier to calculate the width of the elements */
     padding-left: 30px;
     width: calc(100% - 400px);
     float: right;
@@ -889,11 +877,7 @@ then move to the top of the section on smaller screen sizes */
 
 /* responsiveness */
 
-@media (max-width: 1119px){
-    .club-page-section-wrapper{
-        height: 600px;
-    }
-
+@media (max-width: 1000px){
     .club-page-about-text{
         width: calc(100% - 33vw);
     }
@@ -902,12 +886,6 @@ then move to the top of the section on smaller screen sizes */
         padding: 0;
         width: auto;
         float: none;
-    }
-
-    .club-page-section-heading{
-        width: 100%;
-        text-align: center;
-        padding: 0;
     }
 
     .club-page-about-image{
@@ -925,21 +903,6 @@ then move to the top of the section on smaller screen sizes */
 }
 
 @media (max-width: 830px){
-    .club-page-section{
-        height: fit-content;
-    }
-
-    .club-page-section-wrapper{
-        height: fit-content;
-        width: 90%;
-        padding: 40px 0;
-    }
-
-    /* .club-page-section-heading{
-        margin-bottom: 20px;
-        font-size: 2rem;
-    } */
-    
     .club-page-about-text{
         width: 100%;
     }
@@ -956,11 +919,7 @@ then move to the top of the section on smaller screen sizes */
     }
 }
 
-@media (max-width: 681px){
-    .club-page-section-heading{
-        text-align: left;
-    }
-
+@media (max-width: 620px){
     .club-page-text{
         padding: 0;
     }
@@ -980,6 +939,12 @@ then move to the top of the section on smaller screen sizes */
 
     .section-heading{
         text-align: center;
+        width: 100%;
+        float: none;
+    }
+
+    .level-top-heading-right{
+        padding: 0;
     }
 }
 
