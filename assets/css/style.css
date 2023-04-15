@@ -934,23 +934,28 @@ footer input{
 /* responsiveness */
 
 @media (max-width: 1119px){
-    #club-page-about-section-wrapper{
+    .club-page-section-wrapper{
         height: 600px;
     }
-    
-    .club-page-about-image{
-        width: 35vw;
-    }
 
-    #club-page-about-heading,
     .club-page-about-text{
-        width: calc(100% - 35vw);
+        width: calc(100% - 33vw);
     }
 
     #club-page-about-heading{
+        padding: 0;
+        width: auto;
+        float: none;
+    }
+
+    .club-page-section-heading{
         width: 100%;
         text-align: center;
         padding: 0;
+    }
+
+    .club-page-about-image{
+        width: 33vw;
     }
 
     #club-page-about-image-one{
@@ -959,33 +964,52 @@ footer input{
 
     #club-page-about-image-two{
         bottom: auto;
-        top: 47vh;
+        top: 42vh;
     }
 }
 
-/* @media (max-width: 982px){
-    #club-page-about-section-wrapper{
-        height: 600px;
+@media (max-width: 830px){
+    .club-page-section{
+        height: fit-content;
     }
 
-    #club-page-about-heading{
-        text-align: center;
+    .club-page-section-wrapper{
+        height: fit-content;
+        width: 90%;
+        padding: 40px 0;
     }
 
-    #club-page-about-heading,
+    .club-page-section-heading{
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+    
     .club-page-about-text{
-        padding: 0;
         width: 100%;
-        float: none;
     }
 
-    #club-page-about-image-one{
-        position: absolute;
+    .club-page-image{
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
     }
 
     #club-page-about-image-two{
         position: static;
-        float: right;
-        clear: both;
     }
-} */
+}
+
+@media (max-width: 681px){
+    .club-page-section-heading{
+        text-align: left;
+    }
+
+    .club-page-text{
+        padding: 0;
+    }
+
+    .club-page-image{
+        width: 100%;
+    }
+}
