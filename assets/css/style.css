@@ -211,6 +211,117 @@ footer input{
     color: rgb(62, 62, 62);
 }
 
+/* responsiveness */
+
+@media (max-width: 1000px){
+    
+    /* header */
+    
+    #logo{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 25px 20px;
+    }
+    
+    #logo > span{
+        letter-spacing: 3.9px;
+    }
+    
+    nav li{
+        font-size: 16px;
+        line-height: 16px;
+        margin: 47px 0;
+    }
+}
+
+@media (max-width: 830px){
+    
+    /* header */
+
+    #logo{
+        font-size: 25px;
+        line-height: 25px;
+        margin: 15px 20px;
+    }
+    
+    #logo > span{
+        letter-spacing: 3.2px;
+    }
+    
+    nav{
+        float: left;
+        width: 100%;
+    }
+    
+    nav ul{
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+    
+    nav li{
+        font-size: 13px;
+        line-height: 13px;
+        padding: 0;
+        margin: 0 15px 0 0;
+    }
+
+    /* footer */
+
+    footer{
+        height: fit-content;
+    }
+
+    #footer-newsletter-signup{
+        flex-direction: column;
+    }
+
+    #footer-newsletter-signup-heading{
+        width: fit-content;
+        margin: 0 0 10px 0;
+    }
+
+    #footer-newsletter-signup-heading span{
+        display: inline;
+    }
+
+    #footer-form-wrapper{
+        max-width: 90vw;
+    }
+}
+
+/* this width was chosen because the footer newsletter description breaks onto two lines here */
+@media (max-width: 681px){
+
+    /* footer */
+
+    #footer-newsletter-signup-heading{
+        align-self: flex-start;
+    }
+
+    footer form{
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        justify-content: space-between;
+    }
+
+    #newsletter-signup-button{
+        width: fit-content;
+    }
+
+    #footer-social-media ul{
+        margin: 10px 0;
+    }
+
+    #footer-social-media a{
+        font-size: 1rem;
+    }
+
+    #copyright{
+        font-size: 0.8rem;
+    }
+}
+
 /* ALL PAGES */
 
 .page-section{
@@ -239,47 +350,13 @@ footer input{
     font-size: 2.3rem;
     margin: 0;
     color: rgb(103, 7, 7);
+    text-align: center;
 }
 
-/* responsiveness */
-
-/* medium screen sizes */
-
-@media (max-width: 1000px){
-    .section-wrapper{
-        height: 600px;
-    }
-}
-
-/* small screen sizes, landscape */
-
-@media (max-width: 830px){
-    .page-section{
-        height: fit-content;
-    }
-
-    .section-wrapper{
-        height: fit-content;
-        width: 90%;
-        margin: 40px 0;
-    }
-    
-    .section-heading{
-        font-size: 2rem;
-        margin-bottom: 20px;
-        width: 100%;
-        float: left;
-        text-align: center;
-    }
-}
-
-/* small screen sizes, portrait */
-
-@media (max-width: 620px){
-    .section-heading{
-        text-align: left;
-        margin-bottom: 30px;
-    }
+/* this code is for headings that start to the right of, and level on top with, section images, 
+then move to the top of the section on smaller screen sizes */
+.level-top-heading-right{
+    text-align: left;
 }
 
 /* HOME PAGE */
@@ -451,26 +528,8 @@ footer input{
 
 /* responsiveness */
 
-/* this width was chosen because the club section heading would break onto three lines here */
-@media (max-width: 982px){
-    
-    /* header */
-    
-    #logo{
-        font-size: 30px;
-        line-height: 30px;
-        margin: 25px 20px;
-    }
-    
-    #logo > span{
-        letter-spacing: 3.9px;
-    }
-    
-    nav li{
-        font-size: 16px;
-        line-height: 16px;
-        margin: 47px 0;
-    }
+/* medium screen sizes */
+@media (max-width: 1000px){
 
     /* book club section */
     
@@ -481,7 +540,6 @@ footer input{
     #club-section-heading{
         width: 100%;
         padding: 0;
-        text-align: center;
         margin-bottom: 20px;
     }
 
@@ -583,35 +641,8 @@ footer input{
     }
 }
 
+/* small screen sizes, landscape mode */
 @media (max-width: 830px){
-    /* header */
-
-    #logo{
-        font-size: 25px;
-        line-height: 25px;
-        margin: 15px 20px;
-    }
-    
-    #logo > span{
-        letter-spacing: 3.2px;
-    }
-    
-    nav{
-        float: left;
-        width: 100%;
-    }
-    
-    nav ul{
-        margin: 0 0 0 20px;
-        padding: 0;
-    }
-    
-    nav li{
-        font-size: 13px;
-        line-height: 13px;
-        padding: 0;
-        margin: 0 15px 0 0;
-    }
 
     /* welcome section */
 
@@ -722,61 +753,9 @@ footer input{
         position: static;
         margin: 30px 0;
     }
-
-    /* footer */
-
-    footer{
-        height: fit-content;
-    }
-
-    #footer-newsletter-signup{
-        flex-direction: column;
-    }
-
-    #footer-newsletter-signup-heading{
-        width: fit-content;
-        margin: 0 0 10px 0;
-    }
-
-    #footer-newsletter-signup-heading span{
-        display: inline;
-    }
-
-    #footer-form-wrapper{
-        max-width: 90vw;
-    }
 }
 
-/* this width was chosen because the footer newsletter description breaks onto two lines here */
-@media (max-width: 681px){
-    #footer-newsletter-signup-heading{
-        align-self: flex-start;
-    }
-
-    footer form{
-        display: flex;
-        flex-direction: column;
-        height: 70px;
-        justify-content: space-between;
-    }
-
-    #newsletter-signup-button{
-        width: fit-content;
-    }
-
-    #footer-social-media ul{
-        margin: 10px 0;
-    }
-
-    #footer-social-media a{
-        font-size: 1rem;
-    }
-
-    #copyright{
-        font-size: 0.8rem;
-    }
-}
-
+/* small screen sizes */
 /* this width was chosen because the recommendations section heading breaks onto two lines here */
 @media (max-width: 601px){
     /* recommendations section */
@@ -988,5 +967,46 @@ footer input{
 
     .club-page-image{
         width: 100%;
+    }
+}
+
+/* ALL PAGES RESPONSIVENESS RULES */
+
+/* medium screen sizes */
+@media (max-width: 1000px){
+    .section-wrapper{
+        height: 600px;
+    }
+
+    .section-heading{
+        text-align: center;
+    }
+}
+
+/* small screen sizes, landscape mode */
+@media (max-width: 830px){
+    .page-section{
+        height: fit-content;
+    }
+
+    .section-wrapper{
+        height: fit-content;
+        width: 90%;
+        margin: 40px 0;
+    }
+    
+    .section-heading{
+        font-size: 2rem;
+        margin-bottom: 20px;
+        width: 100%;
+        float: left;
+    }
+}
+
+/* small screen sizes, portrait mode */
+@media (max-width: 620px){
+    .section-heading{
+        text-align: left;
+        margin-bottom: 30px;
     }
 }
