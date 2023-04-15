@@ -76,24 +76,7 @@ h3{
     color: #fff;
 }
 
-/* ALL PAGES */
-
-.section-heading{
-    text-transform: uppercase;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 2.3rem;
-    margin: 0;
-}
-
-.section-heading-dark{
-    color: rgb(103, 7, 7);
-}
-
-.section-heading-light{
-    color: white;
-}
+/* HEADER AND FOOTER */
 
 /* header */
 
@@ -149,221 +132,6 @@ nav a{
 nav a:hover{
     color: rgb(103, 7, 7);
     text-decoration: underline;
-}
-
-/* HOME PAGE */
-
-/* home page sections */
-
-.home-page-section{
-    height: 700px;
-}
-
-.section-image{
-    height: 350px;
-}
-
-.dark-section{
-    background-color: #bebebe;
-}
-
-.home-section-heading{
-    text-transform: uppercase;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 2.3rem;
-    margin: 0;
-}
-
-.home-dark-heading{
-    color: rgb(103, 7, 7);
-}
-
-.home-light-heading{
-    color: white;
-}
-
-/* welcome section */
-
-#welcome-section{
-    height: 500px;
-    background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
-    color: white;
-    position: relative;
-}
-
-#welcome-logo{
-    float: left;
-    background-color: rgba(62, 62, 62, .5);
-    padding: 0 15px 15px 50px;
-    margin: 0;
-    position: absolute;
-    top: 190px;
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    font-size: 70px;
-    line-height: 70px;
-    font-weight: 500;
-}
-
-#heading-welcome-to{
-    font-family: 'Allison', cursive;
-    text-transform: initial;
-    font-weight: 400;
-}
-
-#heading-edin{
-    letter-spacing: 8.8px;
-    display: inline-block;
-    transform: scale(1, .8);
-}
-
-/* book club section */
-
-#club-section{
-    /* this code centers the content in the section horizontally and vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#club-wrapper{
-    width: 80%;
-    height: 550px;
-
-    /* this line of code is necessary to position the image */
-    position: relative;
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-#club-section-heading{
-    /* the value of 362px was chosen because it is the approx width of the image */
-    width: calc(100% - 362px);
-    
-    /* pushes the heading to the right */
-    align-self: flex-end;
-
-    padding-left: 4%;
-    box-sizing: border-box;
-}
-
-#main-club-cover{
-    height: 550px;
-    position: absolute;
-}
-
-#club-home-text{
-    width: calc(100% - 362px);
-    align-self: flex-end;
-    padding-left: 4%;
-    box-sizing: border-box;
-
-    /* makes content take up the remaining vertical space */
-    flex-grow: 1;
-
-    /* this code pushes the last paragraph to the bottom of the section */
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-}
-
-#club-home-info{
-    /* this code is necessary so the last "Learn more..." paragraph doesn't render next to this div */
-    width: 100%;
-}
-
-/* this code makes the total width of the date and location information blocks the same so that they will break onto new lines at the same time */
-#club-section-date{
-    width: 264.42px;
-}
-
-/* recommendations section */
-
-#rec-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#rec-wrapper{
-    width: 95%;
-    height: 650px;
-}
-
-#rec-section-heading,
-#rec-section-desc{
-    text-align: center;
-}
-
-.rec-home-book-div{
-    width: 33%;
-    display: inline-block;
-    padding: 0 3%;
-    box-sizing: border-box;
-    vertical-align: top;
-    text-align: center;
-}
-
-.rec-home-book-title{
-    margin-bottom: 5px;
-}
-
-.rec-home-author{
-    margin-top: 0;
-}
-
-.rec-home-book-title,
-.rec-home-author-name{
-    color: rgb(103, 7, 7);
-}
-
-.rec-cover-image{
-    height: 300px;
-}
-
-.rec-book-desc{
-    font-size: 0.9rem;
-}
-
-/* bookstores section */
-
-#stores-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#stores-wrapper{
-    width: 90%;
-    height: 600px;
-    position: relative;
-}
-
-#stores-section-heading{
-    margin-bottom: 40px;
-}
-
-#stores-home-image{
-    float: right;
-    width: 50vw;
-    max-width: 560px;
-}
-
-.stores-home-text{
-    width: calc(100% - 53vw);
-    float: left;
-}
-
-#stores-learn-more{
-    text-align: center;
-    position: absolute;
-    bottom: 50px;
-    width: 100%;
-    margin: 0;
 }
 
 /* footer */
@@ -449,6 +217,244 @@ footer input{
     color: rgb(62, 62, 62);
 }
 
+/* ALL PAGES */
+
+.page-section{
+    height: 700px;
+    
+    /* this code centers the content in the section horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-section{
+    background-color: #dcdcdc;
+}
+
+.section-wrapper{
+    height: 550px;
+    width: 80%;
+}
+
+.section-heading{
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+    margin: 0;
+    color: rgb(103, 7, 7);
+}
+
+/* responsiveness */
+
+/* medium screen sizes */
+
+@media (max-width: 1000px){
+    .section-wrapper{
+        height: 600px;
+    }
+}
+
+/* small screen sizes, landscape */
+
+@media (max-width: 830px){
+    .page-section{
+        height: fit-content;
+    }
+
+    .section-wrapper{
+        height: fit-content;
+        width: 90%;
+        margin: 40px 0;
+    }
+    
+    .section-heading{
+        font-size: 2rem;
+        margin-bottom: 20px;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+}
+
+/* small screen sizes, portrait */
+
+@media (max-width: 620px){
+    .section-heading{
+        text-align: left;
+        margin-bottom: 30px;
+    }
+}
+
+/* HOME PAGE */
+
+/* home page sections */
+
+.section-image{
+    height: 350px;
+}
+
+/* welcome section */
+
+#welcome-section{
+    height: 500px;
+    background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
+    color: white;
+    position: relative;
+}
+
+#welcome-logo{
+    float: left;
+    background-color: rgba(62, 62, 62, .5);
+    padding: 0 15px 15px 50px;
+    margin: 0;
+    position: absolute;
+    top: 190px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+#heading-welcome-to{
+    font-family: 'Allison', cursive;
+    text-transform: initial;
+    font-weight: 400;
+}
+
+#heading-edin{
+    letter-spacing: 8.8px;
+    display: inline-block;
+    transform: scale(1, .8);
+}
+
+/* book club section */
+
+#club-wrapper{
+    /* this line of code is necessary to position the image */
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#club-section-heading{
+    /* the value of 362px was chosen because it is the approx width of the image */
+    width: calc(100% - 362px);
+    
+    /* pushes the heading to the right */
+    align-self: flex-end;
+
+    padding-left: 4%;
+    box-sizing: border-box;
+}
+
+#main-club-cover{
+    height: 550px;
+    position: absolute;
+}
+
+#club-home-text{
+    width: calc(100% - 362px);
+    align-self: flex-end;
+    padding-left: 4%;
+    box-sizing: border-box;
+
+    /* makes content take up the remaining vertical space */
+    flex-grow: 1;
+
+    /* this code pushes the last paragraph to the bottom of the section */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#club-home-info{
+    /* this code is necessary so the last "Learn more..." paragraph doesn't render next to this div */
+    width: 100%;
+}
+
+/* this code makes the total width of the date and location information blocks the same so that they will break onto new lines at the same time */
+#club-section-date{
+    width: 264.42px;
+}
+
+/* recommendations section */
+
+/* note: this section has slightly different dimensions than other sections, for stylistic purposes only */
+#rec-wrapper{
+    width: 95%;
+    height: 650px;
+}
+
+#rec-section-heading,
+#rec-section-desc{
+    text-align: center;
+}
+
+.rec-home-book-div{
+    width: 33%;
+    display: inline-block;
+    padding: 0 3%;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+}
+
+.rec-home-book-title{
+    margin-bottom: 5px;
+}
+
+.rec-home-author{
+    margin-top: 0;
+}
+
+.rec-home-book-title,
+.rec-home-author-name{
+    color: rgb(103, 7, 7);
+}
+
+.rec-cover-image{
+    height: 300px;
+}
+
+.rec-book-desc{
+    font-size: 0.9rem;
+}
+
+/* bookstores section */
+
+#stores-wrapper{
+    position: relative;
+}
+
+#stores-section-heading{
+    margin-bottom: 40px;
+}
+
+#stores-home-image{
+    float: right;
+    width: 50vw;
+    max-width: 560px;
+}
+
+.stores-home-text{
+    width: calc(100% - 53vw);
+    float: left;
+}
+
+#stores-learn-more{
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    margin: 0;
+}
+
 /* responsiveness */
 
 /* this width was chosen because the club section heading would break onto three lines here */
@@ -482,10 +488,7 @@ footer input{
         width: 100%;
         padding: 0;
         text-align: center;
-
-        /* this code pushes the heading slightly above where it would normally sit; for stylistic purposes only */
-        position: relative;
-        bottom: 20px;
+        margin-bottom: 20px;
     }
 
     #main-club-cover{
@@ -587,10 +590,6 @@ footer input{
 }
 
 @media (max-width: 830px){
-    .home-page-section{
-        height: 1200px;
-    }
-
     /* header */
 
     #logo{
@@ -620,13 +619,6 @@ footer input{
         margin: 0 15px 0 0;
     }
 
-    /* home page sections */
-
-    .home-section-heading{
-        font-size: 2rem;
-        margin: 10px 0 20px;
-    }
-
     /* welcome section */
 
     #welcome-section{
@@ -647,10 +639,8 @@ footer input{
     /* book club section */
     
     #club-wrapper{
-        height: 1000px;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 95%;
     }
 
     #main-club-cover{
@@ -677,7 +667,6 @@ footer input{
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        margin: 30px 0;
     }
 
     #rec-books-wrapper{
@@ -796,12 +785,6 @@ footer input{
 
 /* this width was chosen because the recommendations section heading breaks onto two lines here */
 @media (max-width: 601px){
-    /* home page sections */
-
-    .home-section-heading{
-        text-align: left;
-    }
-    
     /* recommendations section */
     
     #rec-books-wrapper{
@@ -979,10 +962,10 @@ footer input{
         padding: 40px 0;
     }
 
-    .club-page-section-heading{
+    /* .club-page-section-heading{
         margin-bottom: 20px;
         font-size: 2rem;
-    }
+    } */
     
     .club-page-about-text{
         width: 100%;
