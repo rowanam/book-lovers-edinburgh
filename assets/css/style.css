@@ -375,11 +375,17 @@ then move to the top of the section on smaller screen sizes */
 
 .one-third-part{
     width: 33%;
+    font-size: 0.9rem;
 }
 
 .learn-more{
     text-align: center;
     margin: 35px 0 0 0;
+}
+
+.full-line-learn-more{
+    width: 100%;
+    float: left;
 }
 
 /* this code is for information descriptors like "date", "location", "synopsis", etc. */
@@ -935,22 +941,38 @@ then move to the top of the section on smaller screen sizes */
 #current-book-cover{
     height: 550px;
     float: right;
+    /* position: relative;
+    top: -49px; */
+    vertical-align: top;
 }
 
-#club-current-book-description{
+#club-current-book-heading,
+#club-current-book-description,
+#club-current-book-buy,
+#club-current-book-reviews{
+    float: left;
+}
+
+#club-current-book-description,
+#club-current-book-buy{
     box-sizing: border-box;
     padding-right: 4%;
 
     /* the value of 362px was chosen because it is the approx width of the image */
     width: calc(100% - 362px);
+}
 
-    height: 501px;
+#club-current-book-buy{
+    /* adding the padding for the buying block itself plus the distance from the image */
+    padding-right: calc(20px + 4%);
+    
+    margin-top: 10px;
 }
 
 #club-current-book-reviews{
     clear: both;
     margin: 20px 0;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     text-align: center;
     border-top: solid 1px;
     border-bottom: solid 1px;
@@ -958,7 +980,7 @@ then move to the top of the section on smaller screen sizes */
 
 .want-to-buy{
     text-align: center;
-    margin: 0 20px;
+    padding: 0 20px;
     font-style: italic;
 }
 
@@ -971,6 +993,9 @@ then move to the top of the section on smaller screen sizes */
 /* responsiveness */
 
 @media (max-width: 1000px){
+
+    /* about section */
+
     .club-page-about-text{
         width: calc(100% - 33vw);
     }
@@ -993,9 +1018,23 @@ then move to the top of the section on smaller screen sizes */
         bottom: auto;
         top: 42vh;
     }
+
+    /* current book section */
+
+    #current-book-cover{
+        height: 500px;
+    }
+
+    #club-current-book-description,
+    #club-current-book-buy{
+        width: calc(100% - 329px);
+    }
 }
 
 @media (max-width: 830px){
+    
+    /* about section */
+    
     .club-page-about-text{
         width: 100%;
     }
@@ -1010,6 +1049,43 @@ then move to the top of the section on smaller screen sizes */
     #club-page-about-image-two{
         position: static;
     }
+
+    /* current book section */
+
+    #current-book-cover{
+        height: 450px;
+    }
+
+    #club-current-book-description,
+    #club-current-book-buy{
+        width: calc(100% - 297px);
+    }
+}
+
+/* extra media query was added for current book section responsiveness styling */
+@media (max-width: 720px){
+    #current-book-cover{
+        height: 300px;
+    }
+
+    #club-current-book-description{
+        width: calc(100% - 198px);
+    }
+    
+    #club-current-book-buy{
+        clear: both;
+        width: 100%;
+        padding: 0 50px 15px;
+        margin: 0;
+    }
+
+    #club-current-book-reviews-three-parts{
+        flex-direction: column;
+    }
+
+    .club-current-book-reviews-one-third-part{
+        width: 90%;
+    }
 }
 
 @media (max-width: 620px){
@@ -1017,8 +1093,38 @@ then move to the top of the section on smaller screen sizes */
         padding: 0;
     }
 
-    .club-page-image{
+    /* current book section */
+
+    /* make this wrapper a flexbox to change the order position of the image */
+    #club-current-book-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #current-book-cover{
+        float: none;
+        height: 450px;
+        margin: auto;
+        display: block;
+
+        /* changing the order property to reorder the image on the page */
+        order: 1;
+    }
+
+    /* changing the order property of all elements wanted to come after the image */
+    #club-current-book-buy,
+    #club-current-book-reviews,
+    #club-current-book-learn-more{
+        order: 2;
+    }
+
+    #club-current-book-description{
         width: 100%;
+        padding: 0;
+    }
+
+    #club-current-book-buy{
+        padding: 10px 40px;
     }
 }
 
@@ -1043,6 +1149,10 @@ then move to the top of the section on smaller screen sizes */
 
     .level-top-heading-right{
         padding: 0;
+    }
+
+    .learn-more{
+        margin-top: 25px;
     }
 }
 
@@ -1071,5 +1181,9 @@ then move to the top of the section on smaller screen sizes */
     .section-heading{
         text-align: left;
         margin-bottom: 30px;
+    }
+
+    .page-image{
+        width: 100%;
     }
 }

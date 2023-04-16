@@ -36,9 +36,6 @@
                 <li>
                     <a href="#">Stores</a>
                 </li>
-                <li class="hidden">
-                    <a href="#">Events</a>
-                </li>
             </ul>
         </nav>
     </header>
@@ -55,7 +52,7 @@
                 About the club</h2>
 
             <img src="assets/images/book_club_1.jpg" alt="Two people sitting on a couch holding books"
-                id="club-page-about-image-one" class="club-page-about-image club-page-image">
+                id="club-page-about-image-one" class="page-image club-page-about-image club-page-image">
 
             <div class="club-page-about-text club-page-text">
                 <p>Our book club is a space for anyone who is passionate about reading to come together and share their
@@ -65,7 +62,7 @@
             </div>
 
             <img src="assets/images/book_club_2.jpg" alt="A cafe" id="club-page-about-image-two"
-                class="club-page-about-image club-page-image">
+                class="page-image club-page-about-image club-page-image">
 
             <div class="club-page-about-text club-page-text">
                 <p>We provide a small snack, but coffee and tea are not included. The beverages at The Book Cafe are
@@ -81,8 +78,8 @@
 
     <!-- current book section -->
     <section class="page-section dark-section">
-        <div class="section-wrapper">
-            <h2 class="section-heading level-top-heading-left">This month's read</h2>
+        <div id="club-current-book-wrapper" class="section-wrapper">
+            <h2 id="club-current-book-heading" class="section-heading level-top-heading-left">This month's read</h2>
 
             <img src="assets/images/The_Kingdoms_cover.jpeg" alt="Picture of the book The Kingdoms by Natasha Pulley"
                 id="current-book-cover">
@@ -98,24 +95,22 @@
 
                 <p>We're very excited about this beautifully-written book set in Scotland, and can't wait to discuss it
                     with you.</p>
+            </div>
 
-                <br>
-
-                <div class="want-to-buy">
-                    <p>Want to buy the book?</p>
-                    <div><a href="#" class="internal-link">Order</a> it now on bookshop.org</div>
-                    <div class="or-lined">or</div>
-                    <div>Look for the book in person at one of our favourite <a href="#" class="internal-link">Edinburgh
-                            bookstores</a></div>
-                </div>
+            <div id="club-current-book-buy" class="want-to-buy">
+                <p>Want to buy the book?</p>
+                <div><a href="#" class="internal-link">Order</a> it now on bookshop.org</div>
+                <div class="or-lined">or</div>
+                <div>Look for the book in person at one of our favourite <a href="#" class="internal-link">Edinburgh
+                        bookstores</a></div>
             </div>
 
             <div id="club-current-book-reviews">
                 <p>Just to get you really keen for this fantastic book, here are a few more words from some
                     experts...</p>
 
-                <div class="three-parts">
-                    <div class="quote one-third-part">
+                <div id="club-current-book-reviews-three-parts" class="three-parts">
+                    <div class="quote one-third-part club-current-book-reviews-one-third-part">
                         <div>
                             "<span class="book-title-ital">The Kingdoms</span> is an intricate and complex but
                             ultimately very satisfying read, blending time slip and historical fiction with the pace of
@@ -124,7 +119,7 @@
                         <div class="text-source text-source-dash-under">Sinead Crowley</div>
                     </div>
 
-                    <div class="quote one-third-part">
+                    <div class="quote one-third-part club-current-book-reviews-one-third-part">
                         <div>
                             "Natasha Pulley has created a world so richly immersive that I felt real shock returning to
                             reality. At once fiercely original, joyous and horrifying, <span class="book-title-ital">The
@@ -134,7 +129,7 @@
                         <div class="text-source text-source-dash-under">Catriona Ward</div>
                     </div>
 
-                    <div class="quote one-third-part">
+                    <div class="quote one-third-part club-current-book-reviews-one-third-part">
                         <div>
                             "All time-travel plots are fraught with paradox, but not all rise to Pulley's level of
                             tricky cleverness, and few of those trickily clever books rise to her level of emotional
@@ -146,7 +141,7 @@
                 </div>
             </div>
 
-            <p class="learn-more">Want to see other great books we've read? Check out our <a href="#"
+            <p id="club-current-book-learn-more" class="learn-more full-line-learn-more">Want to see other great books we've read? Check out our <a href="#"
                     class="internal-link">book recommendations</a>.</p>
         </div>
     </section>

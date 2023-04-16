@@ -146,7 +146,7 @@ Home page, book club section:
 
 ------
 
-## Description Attributions
+## Description and Text Attributions
 
 "In Arabian Nights" home page description ("In this entertaining... mythical Arabian Nights.")
 - source: Goodreads (<a href="https://www.goodreads.com/book/show/1332455.In_Arabian_Nights?from_search=true&from_srp=true&qid=3TiHOyIRz8&rank=1" target="_blank">page link</a>)
@@ -156,3 +156,6 @@ Home page, book club section:
 
 "Small Pleasures" home page description ("A frustrated reporter... happiness.")
 - source: Waterstones (<a href="https://www.waterstones.com/book/small-pleasures/clare-chambers/9781474613903" target="_blank">page link</a>)
+
+"The Kingdoms" club page review quotes
+- source: Waterstones (<a href="https://www.waterstones.com/book/the-kingdoms/natasha-pulley/9781526623157" target="_blank">page link</a>)
