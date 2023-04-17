@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;700&family=Nunito+Sans:wght@700&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@700&family=Playfair+Display:wght@500&display=swap');
 
 body{
     margin: 0;
@@ -359,7 +359,8 @@ footer input{
     height: 550px;
 }
 
-/* large page elements - headings, text blocks, images */
+/* large page elements */ 
+/* --> headings, text blocks, images */
 
 .section-heading{
     text-transform: uppercase;
@@ -367,8 +368,12 @@ footer input{
     letter-spacing: 1px;
     font-size: 2.3rem;
     margin: 0;
-    color: rgb(103, 7, 7);
     text-align: center;
+}
+
+section h2,
+section h3{
+    color: rgb(103, 7, 7);
 }
 
 /* this code is for headings that start to the right of, and level on top with, section images, 
@@ -382,7 +387,8 @@ then move to the top of the section on smaller screen sizes */
     display: inline-block;
 }
 
-/* smaller element styles - inline styles, description tags, etc. */
+/* smaller element styles */ 
+/* --> inline styles, description tags, etc. */
 
 .top-bottom-flex-box{
     display: flex;
@@ -437,6 +443,10 @@ then move to the top of the section on smaller screen sizes */
 /* to italise book titles */
 .book-title-ital{
     font-style: italic;
+}
+
+.email{
+    font-weight: 600;
 }
 
 /* HOME PAGE */
@@ -1011,6 +1021,14 @@ then move to the top of the section on smaller screen sizes */
     text-transform: uppercase;
     text-decoration: overline underline;
     margin: 5px 0;
+}
+
+/* find us section */
+
+#cafe-map{
+    height: 300px;
+    width: 100%;
+    border: none;
 }
 
 /* responsiveness */
