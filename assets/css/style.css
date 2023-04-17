@@ -917,6 +917,8 @@ then move to the top of the section on smaller screen sizes */
 
 /* OTHER PAGES */
 
+/* page headings */
+
 .page-heading-section{
     height: 200px;
     background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
@@ -924,22 +926,35 @@ then move to the top of the section on smaller screen sizes */
     position: relative;
 }
 
-/* CLUB PAGE */
-
-/* page heading section */
-
-#club-page-heading{
+.page-main-heading{
     float: left;
     background-color: rgba(62, 62, 62, .5);
     padding: 10px 5px 10px 50px;
     margin: 0;
     position: absolute;
-    top: 80px;
+    bottom: 47px;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 500;
 }
+
+/* responsiveness */
+
+@media (max-width: 830px){
+    .page-main-heading{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 620px){
+    .page-main-heading{
+        padding: 10px 5px 10px 20px;
+        width: 80vw;
+    }
+}
+
+/* CLUB PAGE */
 
 /* about section */
 
