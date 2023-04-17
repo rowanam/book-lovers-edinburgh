@@ -375,7 +375,6 @@ then move to the top of the section on smaller screen sizes */
 
 .one-third-part{
     width: 33%;
-    font-size: 0.9rem;
 }
 
 .learn-more{
@@ -409,6 +408,7 @@ then move to the top of the section on smaller screen sizes */
 /* for quotes */
 .quote{
     padding: 10px;
+    font-size: 0.9rem;
 }
 
 /* to italise book titles */
@@ -971,7 +971,7 @@ then move to the top of the section on smaller screen sizes */
 
 #club-current-book-reviews{
     clear: both;
-    margin: 20px 0;
+    margin: 30px 0 20px;
     padding-bottom: 10px;
     text-align: center;
     border-top: solid 1px;
@@ -1016,7 +1016,7 @@ then move to the top of the section on smaller screen sizes */
 
     #club-page-about-image-two{
         bottom: auto;
-        top: 42vh;
+        top: 35vw;
     }
 
     /* current book section */
@@ -1025,9 +1025,15 @@ then move to the top of the section on smaller screen sizes */
         height: 500px;
     }
 
-    #club-current-book-description,
-    #club-current-book-buy{
+    #club-current-book-description{
         width: calc(100% - 329px);
+    }
+
+    #club-current-book-buy{
+        clear: both;
+        width: 100%;
+        padding: 15px 50px;
+        margin: 0;
     }
 }
 
@@ -1056,8 +1062,7 @@ then move to the top of the section on smaller screen sizes */
         height: 450px;
     }
 
-    #club-current-book-description,
-    #club-current-book-buy{
+    #club-current-book-description{
         width: calc(100% - 297px);
     }
 }
@@ -1066,17 +1071,22 @@ then move to the top of the section on smaller screen sizes */
 @media (max-width: 720px){
     #current-book-cover{
         height: 300px;
+
+        /* add margin so wrapped text doesn't touch image */
+        margin: 0 0 20px 20px;
     }
 
+    /* style change in order to wrap text around image */
     #club-current-book-description{
-        width: calc(100% - 198px);
-    }
-    
-    #club-current-book-buy{
-        clear: both;
         width: 100%;
-        padding: 0 50px 15px;
-        margin: 0;
+        float: none;
+        padding: 0;
+    }
+
+    /* prevent synposis from wrapping underneath image */
+    #club-current-book-synposis{
+        box-sizing: border-box;
+        width: 65%;
     }
 
     #club-current-book-reviews-three-parts{
@@ -1121,6 +1131,10 @@ then move to the top of the section on smaller screen sizes */
     #club-current-book-description{
         width: 100%;
         padding: 0;
+    }
+
+    #club-current-book-synposis{
+        width: 100%;
     }
 
     #club-current-book-buy{
