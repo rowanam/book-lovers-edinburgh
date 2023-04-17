@@ -136,6 +136,23 @@ Book club about image 2
 
 ------
 
+## Description and Text Attributions
+
+"The Kingdoms"
+- Home Page taster description, Club Page synopsis - source: <a href="https://www.goodreads.com/book/show/54680112-the-kingdoms" target="_blank">Goodreads</a>
+- Club Page review quotes - source: <a href="https://www.waterstones.com/book/the-kingdoms/natasha-pulley/9781526623157" target="_blank">Waterstones</a>
+
+"In Arabian Nights"
+- Home Page taster description - source: <a href="https://www.goodreads.com/book/show/1332455.In_Arabian_Nights?from_search=true&from_srp=true&qid=3TiHOyIRz8&rank=1" target="_blank">Goodreads</a>
+
+"The Thursday Murder Club"
+- Home Page taster description - source: <a href="https://www.waterstones.com/book/the-thursday-murder-club/richard-osman/9780241988268" target="_blank">Waterstones</a>
+
+"Small Pleasures"
+- Home Page taster description - source: <a href="https://www.waterstones.com/book/small-pleasures/clare-chambers/9781474613903" target="_blank">Waterstones</a>
+
+------
+
 ## Future Fixes
 
 Home page footer newsletter signup: form and description are spaced apart using a margin. would prefer to do this using flexbox space-between, but when I changed the footer-form-wrapper div display property to flex, the whole div was shifted to the left, and I don't know why.
@@ -143,19 +160,3 @@ Home page footer newsletter signup: form and description are spaced apart using 
 Home page, book club section:
 - used a workaround to make date and location information blocks the same total width
 - in future, would want to find a cleaner solution
-
-------
-
-## Description and Text Attributions
-
-"In Arabian Nights" home page description ("In this entertaining... mythical Arabian Nights.")
-- source: Goodreads (<a href="https://www.goodreads.com/book/show/1332455.In_Arabian_Nights?from_search=true&from_srp=true&qid=3TiHOyIRz8&rank=1" target="_blank">page link</a>)
-
-"The Thursday Murder Club" home page description ("Laced with killer... property developer.")
-- source: Waterstones (<a href="https://www.waterstones.com/book/the-thursday-murder-club/richard-osman/9780241988268" target="_blank">page link</a>)
-
-"Small Pleasures" home page description ("A frustrated reporter... happiness.")
-- source: Waterstones (<a href="https://www.waterstones.com/book/small-pleasures/clare-chambers/9781474613903" target="_blank">page link</a>)
-
-"The Kingdoms" club page review quotes
-- source: Waterstones (<a href="https://www.waterstones.com/book/the-kingdoms/natasha-pulley/9781526623157" target="_blank">page link</a>)
