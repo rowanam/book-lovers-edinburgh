@@ -81,19 +81,22 @@ header{
 
 nav{
     float: right;
+    margin: 46px 15px;
 }
 
 nav ul{
     list-style-type: none;
-    margin: 0 15px 0 0;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
 }
 
 nav li{
     display: inline-block;
+    vertical-align: middle;
     font-size: 18px;
     line-height: 18px;
-    padding: 0 15px;
-    margin: 46px 0;
+    margin: 0 15px;
 }
 
 nav a{
@@ -208,11 +211,18 @@ footer input{
     #logo > span{
         letter-spacing: 3.9px;
     }
+
+    nav{
+        margin: 47px 15px;
+    }
+
+    nav ul{
+        line-height: 16px;
+    }
     
     nav li{
         font-size: 16px;
         line-height: 16px;
-        margin: 47px 0;
     }
 }
 
@@ -223,21 +233,20 @@ footer input{
     #logo{
         font-size: 25px;
         line-height: 25px;
-        margin: 15px 20px;
+        margin: 30px 20px;
     }
     
     #logo > span{
         letter-spacing: 3.2px;
     }
-    
+
     nav{
-        float: left;
-        width: 100%;
+        margin: 48.5px 15px;
     }
     
     nav ul{
-        margin: 0 0 0 20px;
         padding: 0;
+        line-height: 13px;
     }
     
     nav li{
@@ -301,6 +310,20 @@ footer input{
 
     #copyright{
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 620px){
+    /* header */
+
+    #logo{
+        margin: 15px 20px;
+    }
+    
+    nav{
+        float: left;
+        width: 100%;
+        margin: 0 0 0 20px;
     }
 }
 
