@@ -126,6 +126,14 @@ Happy coding!
 "The Thursday Murder Club" by Richard Osman book cover
 - course website <a href="https://www.penguin.co.uk/books/315815/the-thursday-murder-club-by-osman-richard/9780241988268" target="_blank">link</a>
 
+**Waterstones**
+
+- "The Atlas Six" book cover (<a href="https://www.waterstones.com/book/the-atlas-six/olivie-blake/9781529095258" target="_blank">link</a>)
+
+**Book Covers**
+
+"Ender's Shadow" - source: <a href="https://www.publishersweekly.com/9780312868604" target="_blank">Publisher's Weekly</a>
+
 **Pexels**
 
 Book club about image 1
@@ -146,10 +154,17 @@ Book club about image 2
 - Home Page taster description - source: <a href="https://www.goodreads.com/book/show/1332455.In_Arabian_Nights?from_search=true&from_srp=true&qid=3TiHOyIRz8&rank=1" target="_blank">Goodreads</a>
 
 "The Thursday Murder Club"
-- Home Page taster description - source: <a href="https://www.waterstones.com/book/the-thursday-murder-club/richard-osman/9780241988268" target="_blank">Waterstones</a>
+- Home Page taster description, Recommendations Page description and review quote - source: <a href="https://www.waterstones.com/book/the-thursday-murder-club/richard-osman/9780241988268" target="_blank">Waterstones</a>
 
 "Small Pleasures"
 - Home Page taster description - source: <a href="https://www.waterstones.com/book/small-pleasures/clare-chambers/9781474613903" target="_blank">Waterstones</a>
+
+"The Atlas Six"
+- Recommendations Page description and review quote - source: <a href="https://www.waterstones.com/book/the-atlas-six/olivie-blake/9781529095258" target="_blank">Waterstones</a>
+
+"Ender's Shadow"
+- Recommendations Page description - source: <a href="https://www.goodreads.com/en/book/show/9532" target="_blank">Goodreads</a>
+- Recommendations Page review quote - source: <a href="https://www.bookbrowse.com/reviews/index.cfm/book_number/500/enders-shadow" target="_blank">Book Browse</a>
 
 ------
 
