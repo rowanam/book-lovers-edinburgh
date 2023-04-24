@@ -114,17 +114,17 @@ Happy coding!
 **The Fair Botanists**
 
 - cover image - <a href="https://www.hachette.co.uk/titles/sara-sheridan-3/the-fair-botanists/9781529336238/" target="_blank">Hachette</a>
-- Recommendations Page synopsis and review - <a href="https://www.waterstones.com/book/the-fair-botanists/sara-sheridan/9781529336221" target="_blank">Waterstones</a>
+- Home Page taster description, Recommendations Page synopsis and review - <a href="https://www.waterstones.com/book/the-fair-botanists/sara-sheridan/9781529336221" target="_blank">Waterstones</a>
 
 **Hamnet**
 
 - cover image - <a href="https://www.maggieofarrell.com/titles/maggie-ofarrell/hamnet/9781472223791/" target="_blank">Maggie O'Farrell's official website</a>
-- Recommendations Page synopsis, description and review - <a href="https://www.waterstones.com/book/hamnet/maggie-ofarrell/9781472223821" target="_blank">Waterstones</a>
+- Home Page taster description, Recommendations Page synopsis, description and review - <a href="https://www.waterstones.com/book/hamnet/maggie-ofarrell/9781472223821" target="_blank">Waterstones</a>
 
 **Young Mungo**
 
 - cover image - <a href="https://www.amazon.co.uk/Young-Mungo-Douglas-Stuart/dp/1529068762" target="_blank">Amazon</a>
-- Recommendations Page synopsis, description and review - <a href="https://www.waterstones.com/book/young-mungo/douglas-stuart/9781529068764" target="_blank">Waterstones</a>
+- Home Page taster description, Recommendations Page synopsis, description and review - <a href="https://www.waterstones.com/book/young-mungo/douglas-stuart/9781529068764" target="_blank">Waterstones</a>
 
 ------
 
