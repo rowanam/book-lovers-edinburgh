@@ -1305,7 +1305,7 @@ then move to the top of the section on smaller screen sizes */
 
 .recommendations-more-books-half ul{
     list-style-type: none;
-    padding-left: 15px;
+    padding: 0 25px 0 15px;
     margin: 0;
     text-align: left;
     border-left: solid 1px;
