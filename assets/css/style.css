@@ -48,10 +48,6 @@ h3{
     text-decoration: underline;
 }
 
-.internal-link-light{
-    color: #fff;
-}
-
 /* HEADER AND FOOTER */
 
 /* header */
@@ -448,6 +444,12 @@ then move to the top of the section on smaller screen sizes */
     font-weight: 600;
 }
 
+/* for book titles and authors that should be bold and red, used on the home page */
+.bold-title-author{
+    font-weight: 600;
+    color: rgb(103, 7, 7);
+}
+
 /* HOME PAGE */
 
 /* home page sections */
@@ -559,23 +561,16 @@ then move to the top of the section on smaller screen sizes */
 .rec-home-book-div{
     width: 33%;
     display: inline-block;
-    padding: 0 3%;
+    padding: 0 1%;
     box-sizing: border-box;
     vertical-align: top;
     text-align: center;
 }
 
-.rec-home-book-title{
-    margin-bottom: 5px;
-}
-
-.rec-home-author{
-    margin-top: 0;
-}
-
-.rec-home-book-title,
-.rec-home-author-name{
-    color: rgb(103, 7, 7);
+.home-rec-subheading{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 .rec-cover-image{
@@ -584,6 +579,7 @@ then move to the top of the section on smaller screen sizes */
 
 .rec-book-desc{
     font-size: 0.9rem;
+    width: 95%;
 }
 
 /* bookstores section */
@@ -663,7 +659,7 @@ then move to the top of the section on smaller screen sizes */
     }
 
     .rec-home-book-div{
-        width: 60%;
+        width: 58%;
         height: 180px;
         display: flex;
         flex-direction: column;
@@ -671,24 +667,33 @@ then move to the top of the section on smaller screen sizes */
         position: relative;
 
         /* to push the text to the right of the book images */
-        left: 150px;
+        left: 160px;
     }
 
-    .rec-home-author{
-        margin: 5px 0 0 0;
+    .home-rec-subheading{
+        margin-top: 13px;
+    }
+
+    .home-rec-book-and-author{
+        margin: 7px 0 0 0;
     }
 
     .rec-right{
         text-align: right;
         align-self: flex-end;
         left: auto;
-        right: 150px;
+        right: 160px;
     }
 
     .rec-cover-image{
         position: absolute;
-        left: -140px;
+        left: -150px;
         height: 220px;
+    }
+
+    .rec-right .rec-cover-image{
+        left: auto;
+        right: -150px;
     }
 
     #rec-home-book-one-cover{
@@ -703,9 +708,8 @@ then move to the top of the section on smaller screen sizes */
         top: -20px;
     }
 
-    .rec-right .rec-cover-image{
-        left: auto;
-        right: -140px;
+    .rec-book-desc{
+        width: 100%;
     }
 
     /* bookstores section */
@@ -787,6 +791,10 @@ then move to the top of the section on smaller screen sizes */
         align-items: center;
     }
 
+    #rec-section-heading{
+        margin-bottom: 15px;
+    }
+
     #rec-books-wrapper{
         height: 800px;
         justify-content: space-around;
@@ -799,7 +807,7 @@ then move to the top of the section on smaller screen sizes */
         width: calc(100% - 150px);
     }
 
-    .rec-home-book-title{
+    .home-rec-subheading{
         margin-top: 0;
     }
 
@@ -811,7 +819,7 @@ then move to the top of the section on smaller screen sizes */
 
     #rec-home-book-two-cover{
         right: auto;
-        left: -140px;
+        left: -150px;
     }
 
     #rec-home-book-one-cover,
@@ -859,15 +867,6 @@ then move to the top of the section on smaller screen sizes */
         display: block;
     }
 
-    #rec-section-heading,
-    #rec-section-desc{
-        text-align: left;
-    }
-
-    #rec-section-desc{
-        margin-bottom: 15px;
-    }
-    
     .rec-home-book-div{
         left: auto;
         width: 100%;
@@ -876,25 +875,48 @@ then move to the top of the section on smaller screen sizes */
         padding: 0;
     }
 
-    .rec-home-book-title{
-        font-size: 1.5rem;
+    #rec-section-heading,
+    #rec-section-desc{
+        text-align: left;
     }
 
-    .rec-home-author{
+    #rec-section-heading{
+        margin-bottom: 20px;
+    }
+
+    #rec-section-desc{
+        margin-bottom: 15px;
+    }
+
+    /* reference code from old version */
+    /* .rec-home-book-title{
+        font-size: 1.5rem;
+    } */
+
+    /* .rec-home-author{
         font-size: 1.1rem;
         margin-bottom: 5px;
-    }
+    } */
 
+    /* old reference code */
     /* this code moves the book cover images to the center of the page */
-    .rec-home-book-div a{
+    /* .rec-home-book-div a{
         display: flex;
         justify-content: center;
+    } */
+
+    .home-rec-book-and-author{
+        margin-bottom: 5px;
     }
 
     .rec-cover-image{
         position: static;
         height: 350px;
+        width: fit-content;
         margin: 10px 0;
+
+        /* moves book cover images to the center of the page */
+        align-self: center;
     }
 
     /* bookstores section */
