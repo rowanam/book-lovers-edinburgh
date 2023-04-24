@@ -887,23 +887,6 @@ then move to the top of the section on smaller screen sizes */
         margin-bottom: 15px;
     }
 
-    /* reference code from old version */
-    /* .rec-home-book-title{
-        font-size: 1.5rem;
-    } */
-
-    /* .rec-home-author{
-        font-size: 1.1rem;
-        margin-bottom: 5px;
-    } */
-
-    /* old reference code */
-    /* this code moves the book cover images to the center of the page */
-    /* .rec-home-book-div a{
-        display: flex;
-        justify-content: center;
-    } */
-
     .home-rec-book-and-author{
         margin-bottom: 5px;
     }
