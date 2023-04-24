@@ -1198,6 +1198,124 @@ then move to the top of the section on smaller screen sizes */
     }
 }
 
+/* RECOMMENDATIONS PAGE */
+
+/* all main sections */
+
+.recommendations-cover,
+.three-part-layout-wrapper{
+    height: 550px;
+}
+
+.recommendations-cover{
+    width: fit-content;
+}
+
+.recommendations-description{
+    font-size: 0.9rem;
+    margin: 0 10px;
+}
+
+.recommendations-highlight-wrapper{
+    margin: 50px 0;
+}
+
+.three-part-layout-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    /* necessary so the image can be postioned absolutely */
+    position: relative;
+}
+
+.three-part-layout-heading,
+.three-part-layout-text{
+    width: calc(100% - 360px);
+    align-self: flex-end;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.three-part-layout-heading h3{
+    margin: 0;
+}
+
+.three-part-layout-heading .recommendations-author-tag{
+    margin: 5px 0 0 0;
+}
+
+.three-part-layout-image{
+    display: inline-block;
+    position: absolute;
+}
+
+.three-part-layout-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.recommendations-quote{
+    padding: 0 10px;
+    font-size: .9rem;
+}
+
+.recommendations-more-books{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.recommendations-more-books-description-wrapper{
+    /* make this description div 1/5 of the parent div width
+    -> 1/5, because the recommendations-more-books-lists-wrapper div flex property is set to 4 */
+    flex: 1;
+}
+
+.recommendations-more-books-description{
+    font-style: italic;
+    box-sizing: border-box;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.recommendations-more-books-lists-wrapper{
+    /* make the lists wrapper 4/5 of the parent div width */
+    flex: 4;
+    
+    display: flex;
+}
+
+.recommendations-more-books-half{
+    /* make the two parts take up equal horizontal portions of the parent container */
+    flex: 1;
+
+    /* position children - initially, in a row horizontally, text vertically centered */
+    display: flex;
+    align-items: center;
+}
+
+.recommendations-more-books-half h3{
+    padding-right: 15px;
+}
+
+.recommendations-more-books-half ul{
+    list-style-type: none;
+    padding-left: 15px;
+    margin: 0;
+    text-align: left;
+    border-left: solid 1px;
+}
+
+.recommendations-more-books-half li{
+    margin: 8px 0;
+}
+
 /* ALL PAGES RESPONSIVENESS RULES */
 
 /* medium screen sizes */

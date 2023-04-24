@@ -109,6 +109,15 @@ Happy coding!
 
 ------
 
+## Book Image and Description Attributions
+
+**The Fair Botanists**
+
+- cover image - <a href="https://www.hachette.co.uk/titles/sara-sheridan-3/the-fair-botanists/9781529336238/" target="_blank">Hachette</a>
+- Recommendations Page description and review - <a href="https://www.waterstones.com/book/the-fair-botanists/sara-sheridan/9781529336221" target="_blank">Waterstones</a>
+
+------
+
 ## Image Attributions
 
 **Goodreads**
