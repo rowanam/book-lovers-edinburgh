@@ -343,14 +343,22 @@ footer input{
     background-color: #dcdcdc;
 }
 
-.section-wrapper{
+.section-wrapper,
+.intro-section-wrapper{
     height: fit-content;
     width: 80%;
+}
+
+.section-wrapper{
     margin: 75px 0;
 }
 
 .fixed-height-section-wrapper{
     height: 550px;
+}
+
+.intro-section-wrapper{
+    margin: 30px;
 }
 
 /* three part layout styles*/
@@ -943,19 +951,21 @@ then move to the top of the section on smaller screen sizes */
 /* page headings */
 
 .page-heading-section{
-    height: 200px;
+    height: 100px;
+    width: 100%;
     background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
     color: white;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-main-heading{
-    float: left;
-    background-color: rgba(62, 62, 62, .5);
-    padding: 10px 5px 10px 50px;
+    background-color: rgba(62, 62, 62, .7);
+    padding: 10px;
     margin: 0;
-    position: absolute;
-    bottom: 47px;
+    /* position: absolute;
+    bottom: 47px; */
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     font-size: 40px;
@@ -971,9 +981,17 @@ then move to the top of the section on smaller screen sizes */
 }
 
 @media (max-width: 620px){
-    .page-main-heading{
+    .page-heading-section{
+        height: 200px;
+    }
+
+    /* .page-main-heading{
         padding: 10px 5px 10px 20px;
-        width: 80vw;
+    } */
+
+    /* does nothing */
+    .page-main-heading{
+        text-align: center;
     }
 }
 
@@ -1586,10 +1604,6 @@ then move to the top of the section on smaller screen sizes */
 
 /* small screen sizes, landscape mode */
 @media (max-width: 830px){
-    .page-section{
-        height: fit-content;
-    }
-
     .section-wrapper{
         height: fit-content;
         width: 90%;

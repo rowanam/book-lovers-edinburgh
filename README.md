@@ -99,6 +99,8 @@ Bookstores Section
 
 Heading Section
 
+*insert example heading section image here*
+
 ### <a href="#" target="_blank">Club Page</a>
 
 About Section
