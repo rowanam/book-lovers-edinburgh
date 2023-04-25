@@ -983,6 +983,9 @@ then move to the top of the section on smaller screen sizes */
 
 #club-page-about-section-wrapper{
     position: relative;
+
+    /* prevents images overlapping */
+    min-height: 550px;
 }
 
 #club-page-about-heading,
