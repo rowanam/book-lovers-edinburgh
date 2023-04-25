@@ -1459,7 +1459,7 @@ then move to the top of the section on smaller screen sizes */
     width: calc(100% - 385px);
 }
 
-.stores-three-part-layout-heading p{
+.stores-best-for{
     margin: 10px 0;
     font-style: italic;
 }
@@ -1483,6 +1483,74 @@ then move to the top of the section on smaller screen sizes */
 .video{
     height: 315px;
     width: 560px;
+}
+
+/* responsiveness */
+
+@media (max-width: 1000px){
+    .store-fav-section-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 830px){
+    .stores-fav-store-wrapper{
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .stores-three-part-layout-heading{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .stores-three-part-layout-heading,
+    .stores-three-part-layout-text{
+        width: 100%;
+        padding: 0;
+    }
+
+    .stores-fav-image{
+        position: static;
+        width: fit-content;
+        display: block;
+        margin: auto;
+    }
+
+    .stores-best-for,
+    .stores-fav-find{
+        text-align: center;
+    }
+
+    .stores-fav-find{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 620px){
+    .stores-three-part-layout-heading,
+    .stores-best-for,
+    .stores-fav-find{
+        text-align: left;
+    }
+
+    .stores-fav-image{
+        height: 230px;
+    }
+
+    .stores-best-for{
+        margin-top: 20px;
+    }
+
+    .stores-more-section-wrapper{
+        text-align: left;
+    }
+    
+    .video{
+        width: 90vw;
+        height: 50vw;
+    }
 }
 
 /* ALL PAGES RESPONSIVENESS RULES */
