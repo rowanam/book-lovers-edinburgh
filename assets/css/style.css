@@ -353,6 +353,26 @@ footer input{
     height: 550px;
 }
 
+/* three part layout styles*/
+/* --> the "three part layout" is an arrangement used frequently throughout the site, where the image sits next to a heading and some text stacked on top of each other */
+
+/* the wrapper for a three part layout element */
+/* initially, heading and text are positioned in a column and the image is positioned absolutely */
+.three-part-layout-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    /* necessary so the image can be postioned absolutely */
+    position: relative;
+}
+
+.three-part-layout-heading,
+.three-part-layout-text{
+    align-self: flex-end;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
 /* large page elements */ 
 /* --> headings, text blocks, images */
 
@@ -1206,7 +1226,7 @@ then move to the top of the section on smaller screen sizes */
 /* all main sections */
 
 .recommendations-cover,
-.three-part-layout-wrapper{
+.recommendations-highlight-wrapper{
     height: 550px;
 }
 
@@ -1223,20 +1243,9 @@ then move to the top of the section on smaller screen sizes */
     margin: 50px 0;
 }
 
-.three-part-layout-wrapper{
-    display: flex;
-    flex-direction: column;
-    
-    /* necessary so the image can be postioned absolutely */
-    position: relative;
-}
-
-.three-part-layout-heading,
-.three-part-layout-text{
+.recommendations-three-part-layout-heading,
+.recommendations-three-part-layout-text{
     width: calc(100% - 360px);
-    align-self: flex-end;
-    box-sizing: border-box;
-    padding-left: 20px;
 }
 
 .three-part-layout-heading h3{
@@ -1323,8 +1332,39 @@ then move to the top of the section on smaller screen sizes */
 
 /* favourite stores section */
 
-.stores-fav-image{
-    height: 300px;
+.stores-fav-image,
+.stores-fav-store-wrapper{
+    height: 250px;
+}
+
+.stores-fav-store-wrapper{
+    margin: 50px 0;
+}
+
+.stores-three-part-layout-heading,
+.stores-three-part-layout-text{
+    /* the value 385px was chosen because it is the width of the widest store image */
+    width: calc(100% - 385px);
+}
+
+.stores-three-part-layout-heading h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.stores-three-part-layout-heading p{
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.stores-fav-image-one{
+    /* the width of the widest image (which is being used to determine the styling) minus the wdith of this image */
+    left: 52px;
+}
+
+.stores-fav-image-two{
+    /* same calculation as image one above */
+    left: 80px;
 }
 
 /* ALL PAGES RESPONSIVENESS RULES */
