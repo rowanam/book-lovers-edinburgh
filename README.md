@@ -130,7 +130,21 @@ Happy coding!
 
 ## Other Attributions
 
-Recommendations Page Scottish Literature Classics list - <a href="https://www.bookscrolling.com/best-scottish-fiction-time/" target="_blank">Bookscrolling</a>
+**Recommendations Page** 
+- Scottish Literature Classics list - <a href="https://www.bookscrolling.com/best-scottish-fiction-time/" target="_blank">Bookscrolling</a>
+
+**Stores Page**
+
+***Toppings***
+- store image - <a href="https://twitter.com/toppingsedin/status/1343137443965521922" target="_blank">Twitter</a>
+
+***Lighthouse*** 
+- store image - <a href="https://www.takeoneaction.org.uk/2022/09/toaff22-x-lighthouse-books-watch-read-think-act/" target="_blank">Take One Action</a>
+- description - <a href="https://lighthousebookshop.com/about" target="_blank">Lighthouse Bookshop</a>
+
+***Gold Hare Books***
+- store image - <a href="https://list.co.uk/news/2255/golden-hare-books-brings-us-a-brand-new-festival" target="_blank">The List</a>
+- description - <a href="https://goldenharebooks.com/pages/about-us" target="_blank">Golden Hare Books</a>
 
 ------
 

@@ -1319,6 +1319,14 @@ then move to the top of the section on smaller screen sizes */
     margin: 8px 0;
 }
 
+/* STORES PAGE */
+
+/* favourite stores section */
+
+.stores-fav-image{
+    height: 300px;
+}
+
 /* ALL PAGES RESPONSIVENESS RULES */
 
 /* medium screen sizes */
