@@ -1330,6 +1330,14 @@ then move to the top of the section on smaller screen sizes */
 
 /* STORES PAGE */
 
+/* all sections */
+
+.stores-three-part-layout-heading h3,
+.stores-more-subheading{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
 /* favourite stores section */
 
 .stores-fav-image,
@@ -1347,11 +1355,6 @@ then move to the top of the section on smaller screen sizes */
     width: calc(100% - 385px);
 }
 
-.stores-three-part-layout-heading h3{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
-
 .stores-three-part-layout-heading p{
     margin: 10px 0;
     font-style: italic;
@@ -1365,6 +1368,17 @@ then move to the top of the section on smaller screen sizes */
 .stores-fav-image-two{
     /* same calculation as image one above */
     left: 80px;
+}
+
+/* more stores section */
+
+.stores-more-section-wrapper{
+    text-align: center;
+}
+
+.video{
+    height: 315px;
+    width: 560px;
 }
 
 /* ALL PAGES RESPONSIVENESS RULES */
