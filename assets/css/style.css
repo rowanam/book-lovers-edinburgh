@@ -489,7 +489,7 @@ then move to the top of the section on smaller screen sizes */
 
 #welcome-section{
     height: 500px;
-    background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
+    background: #3e3e3e url("../books-welcome-image.jpg") center/cover no-repeat;
     color: white;
     position: relative;
 }
@@ -953,7 +953,7 @@ then move to the top of the section on smaller screen sizes */
 .page-heading-section{
     height: 100px;
     width: 100%;
-    background: #3e3e3e url("../images/pexels-suzy-hazelwood-1887609.jpg") center/cover no-repeat;
+    background: #3e3e3e url("../images/books-welcome-image.jpg") center/cover no-repeat;
     color: white;
     display: flex;
     justify-content: center;

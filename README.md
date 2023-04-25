@@ -356,6 +356,10 @@ Page heading sections
 
 ### Other Attributions
 
+**All Pages**
+
+- landing and page headings image - photo by Suzy Hazelwood, <a href="https://www.pexels.com/photo/assorted-title-books-1887609/" target="_blank">Pexels</a>
+
 **Club Page**
 
 - About image one - photo by cottonbro studio, <a href="https://www.pexels.com/photo/woman-in-gray-robe-reading-book-4861330/" target="_blank">Pexels</a>
