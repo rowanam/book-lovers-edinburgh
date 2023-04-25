@@ -489,7 +489,7 @@ then move to the top of the section on smaller screen sizes */
 
 #welcome-section{
     height: 500px;
-    background: #3e3e3e url("../books-welcome-image.jpg") center/cover no-repeat;
+    background: #3e3e3e url("../images/books-welcome-image.jpg") center/cover no-repeat;
     color: white;
     position: relative;
 }
@@ -570,6 +570,10 @@ then move to the top of the section on smaller screen sizes */
 /* this code makes the total width of the date and location information blocks the same so that they will break onto new lines at the same time */
 #club-section-date{
     width: 264.42px;
+}
+
+#home-club-learn-more{
+    margin: 0;
 }
 
 /* recommendations section */
@@ -802,6 +806,13 @@ then move to the top of the section on smaller screen sizes */
         width: 100%;
         margin-top: 20px;
         height: auto;
+        padding: 0;
+    }
+
+    #home-club-learn-more{
+        margin: 50px 0 15px;
+        width: 100%;
+        text-align: center;
     }
 
     /* recommendations section */
@@ -880,6 +891,14 @@ then move to the top of the section on smaller screen sizes */
     #stores-learn-more{
         position: static;
         margin: 30px 0;
+    }
+}
+
+@media (max-width: 620px){
+    #home-club-learn-more,
+    #rec-learn-more{
+        width: 100%;
+        text-align: left;
     }
 }
 
@@ -1599,6 +1618,10 @@ then move to the top of the section on smaller screen sizes */
 
 /* small screen sizes, landscape mode */
 @media (max-width: 830px){
+    .fixed-height-page-section{
+        height: fit-content;
+    }
+    
     .section-wrapper{
         height: fit-content;
         width: 90%;
