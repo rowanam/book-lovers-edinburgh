@@ -260,3 +260,6 @@ Home page footer newsletter signup: form and description are spaced apart using 
 Home page, book club section:
 - used a workaround to make date and location information blocks the same total width
 - in future, would want to find a cleaner solution
+
+Page heading sections
+- On small screen sizes, h1 breaks onto multiples lines and automatically takes up the full width of the parent. In future I would like to find a way for the width of the element to "shrink-wrap" to stay the width of the text content so the padding with background color does not extend to the edges of the section.
