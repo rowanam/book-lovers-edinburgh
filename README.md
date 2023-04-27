@@ -310,7 +310,7 @@ Signed up page box overlap with footer
 - On vertical mobile devices, the height of the box was set to fit-content. I wanted the footer to be at the bottom of the page if space allowed, and then to be pushed further down if the box became too long and overlapped with the footer. I tried to do this by setting the minimum height of the section to the height of the box plus its margins, but this didn't work. I fixed the main issue, which was the box overlapping with the footer, by picking a minimum height that would work for even very narrow screens (600px), so the box should never overlap. However, in future I would like to find a cleaner solution to achieve my original plan of having the footer always at the bottom of the page if space allows.
 
 ---
-## Future Fixes
+## Known Bugs and Future Fixes
 ---
 
 Home page footer newsletter signup: form and description are spaced apart using a margin. would prefer to do this using flexbox space-between, but when I changed the footer-form-wrapper div display property to flex, the whole div was shifted to the left, and I don't know why.
@@ -321,6 +321,9 @@ Home Page book club section date and location
 
 Page heading sections
 - On small screen sizes, h1 breaks onto multiples lines and automatically takes up the full width of the parent. In future I would like to find a way for the width of the element to "shrink-wrap" to stay the width of the text content so the padding with background color does not extend to the edges of the section.
+
+Nav bar on small screens
+- On some narrow screen sizes (e.g. Galaxy Fold), the nav bar wraps onto the next line. I attempted to mitigate this issue by reducing the spacing between menu items a little so it would work well on more screen sizes, but in the long run the best fix would be a burger menu.
 
 ---
 ## Testing

@@ -323,6 +323,10 @@ footer input{
         float: left;
         margin: 0 0 0 20px;
     }
+
+    nav li{
+        margin: 0 13px 0 0;
+    }
 }
 
 /* ALL PAGES */
