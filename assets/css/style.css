@@ -40,7 +40,8 @@ h3{
     text-align: center;
 }
 
-/* the link class is used for all main page links, excluding nav bar and footer social media links */
+/* the link class is used for text links in the main body of the page
+excludes nav bar, image and footer social media links */
 .link{
     color: rgb(103, 7, 7);
 }
