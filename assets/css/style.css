@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@700&family=Playfair+Display:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:wght@700&family=Playfair+Display:wght@500;600&display=swap');
 
 body{
     margin: 0;
@@ -40,13 +40,14 @@ h3{
     text-align: center;
 }
 
-.internal-link{
-    text-decoration: none;
+/* the link class is used for all main page links, excluding nav bar and footer social media links */
+.link{
     color: rgb(103, 7, 7);
 }
 
-.internal-link:hover{
-    text-decoration: underline;
+.link:hover{
+    color: #9f0b0b;
+    text-decoration: none;
 }
 
 /* HEADER AND FOOTER */
