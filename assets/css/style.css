@@ -1268,6 +1268,10 @@ then move to the top of the section on smaller screen sizes */
     #club-current-book-buy{
         padding: 10px 40px;
     }
+
+    #club-current-book-learn-more{
+        text-align: left;
+    }
 }
 
 /* RECOMMENDATIONS PAGE */
