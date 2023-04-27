@@ -1654,10 +1654,14 @@ which is why the first break point occurs at 1200px */
     .fixed-height-page-section{
         height: fit-content;
     }
+
+    .section-wrapper,
+    .intro-section-wrapper{
+        width: 90%;
+    }
     
     .section-wrapper{
         height: fit-content;
-        width: 90%;
         margin: 40px 0;
     }
     
