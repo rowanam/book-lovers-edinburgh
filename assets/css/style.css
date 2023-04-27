@@ -1283,6 +1283,15 @@ then move to the top of the section on smaller screen sizes */
     width: fit-content;
 }
 
+.recommendations-story-taster-wrapper{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.recommendations-descriptor-tag{
+    margin-top: 5px;
+}
+
 .recommendations-description{
     font-size: 0.9rem;
     margin: 0 10px;
@@ -1385,6 +1394,8 @@ then move to the top of the section on smaller screen sizes */
 
 /* responsiveness */
 
+/* the highlighted book portions have large enough bodies of text that an earlier break point was needed compared to other pages,
+which is why the first break point occurs at 1200px */
 @media (max-width: 1200px){
     .recommendations-highlight-wrapper{
         display: block;
@@ -1409,6 +1420,10 @@ then move to the top of the section on smaller screen sizes */
         display: block;
         width: auto;
         min-height: 550px;
+    }
+
+    .recommendations-story-taster-wrapper{
+        margin-left: 380px;
     }
 
     .recommendations-book-learn-more{
@@ -1452,6 +1467,11 @@ then move to the top of the section on smaller screen sizes */
 
     .recommendations-three-part-layout-text{
         min-height: auto;
+    }
+
+    .recommendations-story-taster-wrapper{
+        border: none;
+        margin-left: 0;
     }
 
     .recommendations-descriptor-tag{
