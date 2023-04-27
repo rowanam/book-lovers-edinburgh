@@ -1529,6 +1529,10 @@ which is why the first break point occurs at 1200px */
     margin: 50px 0;
 }
 
+#stores-fav-store-wrapper-last{
+    margin-bottom: 0;
+}
+
 .stores-three-part-layout-heading,
 .stores-three-part-layout-text{
     /* the value 334px was chosen because it is the width of the store images, rounded up to an integer */
