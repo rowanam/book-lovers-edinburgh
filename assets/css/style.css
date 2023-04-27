@@ -954,14 +954,16 @@ then move to the top of the section on smaller screen sizes */
         margin-bottom: 5px;
     }
 
+    .rec-cover-image-link{
+        /* moves book cover images to the center of the page */
+        align-self: center;
+    }
+
     .rec-cover-image{
         position: static;
         height: 350px;
         width: fit-content;
         margin: 10px 0;
-
-        /* moves book cover images to the center of the page */
-        align-self: center;
     }
 
     /* bookstores section */
