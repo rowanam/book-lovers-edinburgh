@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@700&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@700&family=Playfair+Display:wght@500;600&display=swap');
 
 body{
     margin: 0;
@@ -9,6 +9,7 @@ body{
 h2,
 h3{
     font-family: 'Playfair Display', serif;
+    font-weight: 600;
     letter-spacing: .5px;
 }
 
@@ -386,7 +387,6 @@ footer input{
 
 .section-heading{
     text-transform: uppercase;
-    font-weight: 700;
     letter-spacing: 1px;
     font-size: 2.3rem;
     margin: 0;
@@ -441,9 +441,11 @@ then move to the top of the section on smaller screen sizes */
 /* this code is for information descriptors like "date", "location", "synopsis", etc. */
 .descriptor-tag{
     font-style: italic;
-    display: inline-block;
-    padding-right: 8px;
-    vertical-align: top;
+    font-family: 'Playfair Display', serif;
+
+    /* this font-weight should be applied automatically since there is no 400 font-weight imported for Playfair Display
+    but this code has been added as a back-up if the browser can't load the imported fonts */
+    font-weight: 500;
 }
 
 /* for names of sources, e.g. after quote */
@@ -567,6 +569,12 @@ then move to the top of the section on smaller screen sizes */
     width: 100%;
 }
 
+.home-club-descriptor-tag{
+    display: inline-block;
+    padding-right: 8px;
+    vertical-align: top;
+}
+
 /* this code makes the total width of the date and location information blocks the same so that they will break onto new lines at the same time */
 #club-section-date{
     width: 264.42px;
@@ -602,6 +610,12 @@ then move to the top of the section on smaller screen sizes */
     text-transform: uppercase;
     font-size: 1.5rem;
     margin-bottom: 0;
+}
+
+.home-rec-book-and-author{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: .3px;
+    margin-top: 10px;
 }
 
 .rec-cover-image{
@@ -1291,7 +1305,9 @@ then move to the top of the section on smaller screen sizes */
 }
 
 .three-part-layout-heading .recommendations-author-tag{
-    margin: 5px 0 0 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-top: 5px;
 }
 
 .three-part-layout-image{
@@ -1328,6 +1344,7 @@ then move to the top of the section on smaller screen sizes */
 }
 
 .recommendations-more-books-description{
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     box-sizing: border-box;
     padding: 0 15px;
@@ -1437,6 +1454,10 @@ then move to the top of the section on smaller screen sizes */
         min-height: auto;
     }
 
+    .recommendations-descriptor-tag{
+        margin-top: 20px;
+    }
+
     .recommendations-more-books{
         display: block;
     }
@@ -1497,6 +1518,7 @@ then move to the top of the section on smaller screen sizes */
 .stores-best-for{
     margin: 10px 0;
     font-style: italic;
+    font-family: 'Playfair Display', serif;
 }
 
 /* more stores section */
