@@ -301,6 +301,15 @@ Initially I coded each section to respond to screen size changes individually, a
 I also realised that some of the concepts of how the sections should respond to screen size changes were similar, so I went back and refactored some of the style rules to make more universal responsiveness styles that applied to multiple sections, removing some of the individual styling I had created along the way. However, as I was learning this as I was going along, I can see that there are more ways I could consolidate responsiveness rules to decrease the complexity of the code and make it easier to navigate, or easier to add more sections in the future. Therefore, another future fix I would make is refactoring the responsiveness style rules to make the css simpler and cleaner.
 
 ---
+## Bug Fixes
+---
+
+Signed up page box overlap with footer
+- On either short or narrow screen sizes, the "thank you for signing up to the newsletter" box overlapped with the footer at the bottom. 
+- On large and medium screen sizes, this was fixed by setting a minimum height, as the height of the box was fixed and so it was easy to calculate the appropriate minimum height.
+- On vertical mobile devices, the height of the box was set to fit-content. I wanted the footer to be at the bottom of the page if space allowed, and then to be pushed further down if the box became too long and overlapped with the footer. I tried to do this by setting the minimum height of the section to the height of the box plus its margins, but this didn't work. I fixed the main issue, which was the box overlapping with the footer, by picking a minimum height that would work for even very narrow screens (600px), so the box should never overlap. However, in future I would like to find a cleaner solution to achieve my original plan of having the footer always at the bottom of the page if space allows.
+
+---
 ## Future Fixes
 ---
 

@@ -1631,6 +1631,100 @@ which is why the first break point occurs at 1200px */
     }
 }
 
+/* SIGNED UP PAGE */
+
+#thank-you-section{
+    background: oldlace url(../images/open-book.jpg) center/cover no-repeat;
+    height: calc(100vh - 275px);
+    position: relative;
+}
+
+/* added a wrapper in order to indirectly gets the box height including margins,
+can then use this to set a min-height for the section to make sure it doesn't overlap with footer */
+#thank-you-box-wrapper{
+    width: fit-content;
+    height: fit-content;
+
+    /* box positioning */
+    position: absolute;
+    top: 10vh;
+    right: 6vw;
+}
+
+#thank-you-box{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(253, 245, 230, .8);
+    padding: 0 30px;
+
+    /* position content */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#thank-you-box p{
+    font-size: .9rem;
+}
+
+#thank-you-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: rgb(103, 7, 7);
+    text-transform: uppercase;
+    margin-top: 14.4px;
+}
+
+#signed-up-footer{
+    height: 165px;
+}
+
+#signed-up-footer-heading{
+    margin: 16px 0;
+    font-size: 1.17rem;
+}
+
+/* at screen sizes shorted than this, the box starts to crowd then overlap the footer
+box is currently positioned absolutely, not in the flow of the document, so can't set min-height of the section to fit-content
+695px = 300px (box height) + 120px (minimum desired top and bottom margins of box) + 110 (header height) + 165 (footer height) */
+@media (max-height: 695px){
+    #thank-you-section{
+        min-height: 420px;
+    }
+}
+
+@media (max-width: 681px){
+    #thank-you-section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        /* note - setting column direction doesn't change the output in any way, but makes it easier to conceptualize behavior on a vertical screen */
+        flex-direction: column;
+
+        width: 100%;
+
+        /* to ensure the box doesn't overlap with the footer on small screens
+        600px is about the height of the box plus its margins on an extremely narrow screen of width 300px */
+        min-height: 600px;
+    }
+
+    #thank-you-box-wrapper{
+        position: static;
+        width: 80%;
+    }
+    
+    #thank-you-box{
+        box-sizing: border-box;
+        width: 100%;
+        height: fit-content;
+        padding: 30px;
+        margin: 60px 0;
+    }
+}
+
 /* ALL PAGES RESPONSIVENESS RULES */
 
 /* medium screen sizes */
