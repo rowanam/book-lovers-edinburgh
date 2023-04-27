@@ -1490,23 +1490,13 @@ then move to the top of the section on smaller screen sizes */
 
 .stores-three-part-layout-heading,
 .stores-three-part-layout-text{
-    /* the value 385px was chosen because it is the width of the widest store image */
-    width: calc(100% - 385px);
+    /* the value 334px was chosen because it is the width of the store images, rounded up to an integer */
+    width: calc(100% - 334px);
 }
 
 .stores-best-for{
     margin: 10px 0;
     font-style: italic;
-}
-
-.stores-fav-image-one{
-    /* the width of the widest image (which is being used to determine the styling) minus the wdith of this image */
-    left: 52px;
-}
-
-.stores-fav-image-two{
-    /* same calculation as image one above */
-    left: 80px;
 }
 
 /* more stores section */
@@ -1571,7 +1561,8 @@ then move to the top of the section on smaller screen sizes */
     }
 
     .stores-fav-image{
-        height: 230px;
+        width: 100%;
+        height: fit-content;
     }
 
     .stores-best-for{
