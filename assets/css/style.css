@@ -806,7 +806,6 @@ excludes nav bar, image and footer social media links */
 
     #main-club-cover{
         height: 450px;
-        width: fit-content;
         margin: auto;
     }
 
@@ -954,7 +953,6 @@ excludes nav bar, image and footer social media links */
     .rec-cover-image{
         position: static;
         height: 350px;
-        width: fit-content;
         margin: 10px 0;
     }
 
@@ -1288,7 +1286,7 @@ excludes nav bar, image and footer social media links */
 }
 
 .recommendations-cover{
-    width: fit-content;
+    width: initial;
 }
 
 .recommendations-story-taster-wrapper{
@@ -1593,7 +1591,6 @@ which is why the first break point occurs at 1200px */
 
     .stores-fav-image{
         position: static;
-        width: fit-content;
         display: block;
         margin: auto;
     }
