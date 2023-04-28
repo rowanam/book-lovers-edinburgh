@@ -460,7 +460,7 @@ then move to the top of the section on smaller screen sizes */
     font-style: italic;
 }
 
-/* for names of sources that appear under their text, with a dash before the source name */
+/* for names of sources that appear under their text, often with a dash before the source name */
 .text-source-dash-under{
     padding-left: 8px;
 }
@@ -471,7 +471,7 @@ then move to the top of the section on smaller screen sizes */
     font-size: 0.9rem;
 }
 
-/* to italise book titles */
+/* to italisise book titles */
 .book-title-ital{
     font-style: italic;
 }
@@ -1005,8 +1005,6 @@ then move to the top of the section on smaller screen sizes */
     background-color: rgba(62, 62, 62, .7);
     padding: 10px;
     margin: 0;
-    /* position: absolute;
-    bottom: 47px; */
     font-family: 'Playfair Display', Times, serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -1069,8 +1067,6 @@ then move to the top of the section on smaller screen sizes */
 #current-book-cover{
     height: 550px;
     float: right;
-    /* position: relative;
-    top: -49px; */
     vertical-align: top;
 }
 
@@ -1645,7 +1641,7 @@ which is why the first break point occurs at 1200px */
     position: relative;
 }
 
-/* added a wrapper in order to indirectly gets the box height including margins,
+/* added a wrapper in order to indirectly get the box height including margins,
 can then use this to set a min-height for the section to make sure it doesn't overlap with footer */
 #thank-you-box-wrapper{
     width: fit-content;
