@@ -130,7 +130,7 @@ footer input{
 }
 
 #newsletter-desc{
-    font-size: 0.8rem;
+    font-size: .8rem;
     margin: 6px 0 0 0; 
 }
 
@@ -272,7 +272,7 @@ footer input{
     }
 
     #copyright{
-        font-size: 0.8rem;
+        font-size: .8rem;
     }
 }
 
@@ -290,7 +290,7 @@ footer input{
     }
 
     nav li{
-        margin: 0 13px 0 0;
+        margin: 0 13px 4px 0;
     }
 }
 
@@ -449,7 +449,7 @@ excludes nav bar, image and footer social media links */
 /* for quotes */
 .quote{
     padding: 10px;
-    font-size: 0.9rem;
+    font-size: .9rem;
 }
 
 /* to italisise book titles */
@@ -614,7 +614,7 @@ excludes nav bar, image and footer social media links */
 }
 
 .rec-book-desc{
-    font-size: 0.9rem;
+    font-size: .9rem;
     width: 95%;
 }
 
@@ -986,6 +986,25 @@ excludes nav bar, image and footer social media links */
     }
 }
 
+/* media query added to fix some layout issues on narrow mobile screens */
+@media (max-width: 330px){
+    #welcome-logo{
+        padding: 0 10px 10px 20px;
+        top: 15vh;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    #main-club-cover{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .home-rec-subheading{
+        font-size: 1.1rem;
+    }
+}
+
 /* OTHER PAGES */
 
 /* page headings */
@@ -1010,6 +1029,12 @@ excludes nav bar, image and footer social media links */
     font-size: 40px;
 }
 
+.three-part-layout-heading h3{
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
 /* responsiveness */
 
 @media (max-width: 830px){
@@ -1031,6 +1056,20 @@ excludes nav bar, image and footer social media links */
 @media (max-width: 450px){
     .page-main-heading{
         font-size: 30px;
+    }
+
+    .three-part-layout-heading h3{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 330px){
+    .page-main-heading{
+        font-size: 25px;
+    }
+
+    .three-part-layout-heading h3{
+        font-size: 1.1rem;
     }
 }
 
@@ -1283,6 +1322,13 @@ excludes nav bar, image and footer social media links */
     }
 }
 
+@media (max-width: 330px){
+    #current-book-cover{
+        width: 100%;
+        height: fit-content;
+    }
+}
+
 /* RECOMMENDATIONS PAGE */
 
 /* all main sections */
@@ -1306,7 +1352,7 @@ excludes nav bar, image and footer social media links */
 }
 
 .recommendations-description{
-    font-size: 0.9rem;
+    font-size: .9rem;
     margin: 0 10px;
 }
 
@@ -1317,13 +1363,6 @@ excludes nav bar, image and footer social media links */
 .recommendations-three-part-layout-heading,
 .recommendations-three-part-layout-text{
     width: calc(100% - 360px);
-}
-
-.three-part-layout-heading h3{
-    margin: 0;
-
-    font-size: 1.5rem;
-    text-transform: uppercase;
 }
 
 .three-part-layout-heading .recommendations-author-tag{
@@ -1521,6 +1560,13 @@ which is why the first break point occurs at 1200px */
     }
 }
 
+@media (max-width: 330px){
+    .recommendations-description,
+    .recommendations-quote{
+        font-size: .7rem;
+    }
+}
+
 /* STORES PAGE */
 
 /* all sections */
@@ -1638,12 +1684,6 @@ which is why the first break point occurs at 1200px */
     }
 }
 
-@media (max-width: 450px){
-    .three-part-layout-heading h3{
-        font-size: 1.3rem;
-    }
-}
-
 /* SIGNED UP PAGE */
 
 #thank-you-section{
@@ -1738,6 +1778,16 @@ box is currently positioned absolutely, not in the flow of the document, so can'
     }
 }
 
+@media (max-width: 330px){
+    #thank-you-heading{
+        font-size: 1.5rem;
+    }
+    
+    #thank-you-box p{
+        font-size: .8rem;
+    }
+}
+
 /* ALL PAGES RESPONSIVENESS RULES */
 
 /* medium screen sizes */
@@ -1810,5 +1860,24 @@ box is currently positioned absolutely, not in the flow of the document, so can'
 
     h3{
         font-size: 1.3rem;
+    }
+}
+
+/* narrow screen sizes, portrait mode */
+@media (max-width: 330px){
+    body{
+        font-size: .8rem;
+    }
+    
+    .section-heading{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.1rem;
+    }
+
+    .quote{
+        font-size: .7rem;
     }
 }
