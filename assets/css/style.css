@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@400;600&family=Playfair+Display:wght@500;600&display=swap');
 
 body{
     margin: 0;
     padding: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, Verdana, sans-serif;
 }
 
 h2,
 h3{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
     font-weight: 600;
     letter-spacing: .5px;
 }
@@ -17,7 +17,7 @@ h3{
 
 /* this shade of maroon is the color of the logo and a main theme color */
 .maroon-theme{
-    color: rgb(103, 7, 7);
+    color: #670707;
 }
 
 .inline-block{
@@ -43,7 +43,7 @@ h3{
 /* the link class is used for text links in the main body of the page
 excludes nav bar, image and footer social media links */
 .link{
-    color: rgb(103, 7, 7);
+    color: #670707;
 }
 
 .link:hover{
@@ -60,13 +60,13 @@ header{
 }
 
 #logo{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
     float: left;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 40px;
     text-decoration: none;
-    color: rgb(103, 7, 7);
+    color: #670707;
     margin: 15px 20px;
 }
 
@@ -108,7 +108,7 @@ nav a{
 }
 
 nav a:hover{
-    color: rgb(103, 7, 7);
+    color: #670707;
     text-decoration: underline;
 }
 
@@ -116,7 +116,7 @@ nav a:hover{
 
 footer{
     height: 220px;
-    background-color: rgb(103, 7, 7);
+    background-color: #670707;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -151,17 +151,17 @@ footer > div{
 }
 
 footer input{
-    border: rgb(103, 7, 7) solid 1px;
+    border: #670707 solid 1px;
 }
 
 #newsletter-signup-button{
     background-color: #fff;
-    color: rgb(103, 7, 7);
-    font-family: Montserrat, sans-serif;
+    color: #670707;
+    font-family: Montserrat, Verdana, sans-serif;
 }
 
 #newsletter-signup-button:hover{
-    background-color: rgb(103, 7, 7);
+    background-color: #670707;
     color: #fff;
     border: #fff solid 1px;
 }
@@ -402,7 +402,7 @@ footer input{
 
 section h2,
 section h3{
-    color: rgb(103, 7, 7);
+    color: #670707;
 }
 
 /* this code is for headings that start to the right of, and level on top with, section images, 
@@ -448,7 +448,7 @@ then move to the top of the section on smaller screen sizes */
 /* this code is for information descriptors like "date", "location", "synopsis", etc. */
 .descriptor-tag{
     font-style: italic;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
 
     /* this font-weight should be applied automatically since there is no 400 font-weight imported for Playfair Display
     but this code has been added as a back-up if the browser can't load the imported fonts */
@@ -483,7 +483,7 @@ then move to the top of the section on smaller screen sizes */
 /* for book titles and authors that should be bold and red, used on the home page */
 .bold-title-author{
     font-weight: 600;
-    color: rgb(103, 7, 7);
+    color: #670707;
 }
 
 /* HOME PAGE */
@@ -504,23 +504,22 @@ then move to the top of the section on smaller screen sizes */
 }
 
 #welcome-logo{
-    float: left;
     background-color: rgba(62, 62, 62, .5);
     padding: 0 15px 15px 50px;
     margin: 0;
     position: absolute;
     top: 190px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 70px;
     line-height: 70px;
-    font-weight: 500;
 }
 
 #heading-welcome-to{
-    font-family: 'Allison', cursive;
-    text-transform: initial;
+    font-family: 'Allison', 'Snell Roundhand', cursive;
     font-weight: 400;
+    text-transform: initial;
 }
 
 #heading-edin{
@@ -620,7 +619,7 @@ then move to the top of the section on smaller screen sizes */
 }
 
 .home-rec-book-and-author{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
     letter-spacing: .3px;
     margin-top: 10px;
 }
@@ -1008,10 +1007,10 @@ then move to the top of the section on smaller screen sizes */
     margin: 0;
     /* position: absolute;
     bottom: 47px; */
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 40px;
-    font-weight: 500;
 }
 
 /* responsiveness */
@@ -1327,7 +1326,7 @@ then move to the top of the section on smaller screen sizes */
 }
 
 .three-part-layout-heading .recommendations-author-tag{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
     font-weight: 500;
     margin-top: 5px;
 }
@@ -1366,7 +1365,7 @@ then move to the top of the section on smaller screen sizes */
 }
 
 .recommendations-more-books-description{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
     font-style: italic;
     box-sizing: border-box;
     padding: 0 15px;
@@ -1555,7 +1554,7 @@ which is why the first break point occurs at 1200px */
 .stores-best-for{
     margin: 10px 0;
     font-style: italic;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
 }
 
 /* more stores section */
@@ -1676,10 +1675,10 @@ can then use this to set a min-height for the section to make sure it doesn't ov
 }
 
 #thank-you-heading{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Times, serif;
     font-weight: 600;
     letter-spacing: .5px;
-    color: rgb(103, 7, 7);
+    color: #670707;
     text-transform: uppercase;
     margin-top: 14.4px;
 }
