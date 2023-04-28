@@ -13,44 +13,6 @@ h3{
     letter-spacing: .5px;
 }
 
-/* reusable styles */
-
-/* this shade of maroon is the color of the logo and a main theme color */
-.maroon-theme{
-    color: #670707;
-}
-
-.inline-block{
-    display: inline-block;
-}
-
-.no-margin{
-    margin: 0;
-}
-
-.no-margin-top{
-    margin-top: 0;
-}
-
-.no-margin-bottom{
-    margin-bottom: 0;
-}
-
-.align-center{
-    text-align: center;
-}
-
-/* the link class is used for text links in the main body of the page
-excludes nav bar, image and footer social media links */
-.link{
-    color: #670707;
-}
-
-.link:hover{
-    color: #9f0b0b;
-    text-decoration: none;
-}
-
 /* HEADER AND FOOTER */
 
 /* header */
@@ -146,8 +108,9 @@ footer > div{
     width: 100%;
 }
 
-.form-space-right{
+.form-part{
     margin-right: 30px;
+    display: inline-block;
 }
 
 footer input{
@@ -445,6 +408,17 @@ then move to the top of the section on smaller screen sizes */
     float: left;
 }
 
+/* the link class is used for text links in the main body of the page
+excludes nav bar, image and footer social media links */
+.link{
+    color: #670707;
+}
+
+.link:hover{
+    color: #9f0b0b;
+    text-decoration: none;
+}
+
 /* this code is for information descriptors like "date", "location", "synopsis", etc. */
 .descriptor-tag{
     font-style: italic;
@@ -581,6 +555,10 @@ then move to the top of the section on smaller screen sizes */
     vertical-align: top;
 }
 
+.home-club-details{
+    display: inline-block;
+}
+
 /* this code makes the total width of the date and location information blocks the same so that they will break onto new lines at the same time */
 #club-section-date{
     width: 264.42px;
@@ -633,6 +611,10 @@ then move to the top of the section on smaller screen sizes */
     width: 95%;
 }
 
+#rec-learn-more{
+    text-align: center;
+}
+
 /* bookstores section */
 
 #stores-wrapper{
@@ -652,6 +634,10 @@ then move to the top of the section on smaller screen sizes */
 .stores-home-text{
     width: calc(100% - 53vw);
     float: left;
+}
+
+#home-stores-first-p{
+    margin-top: 0;
 }
 
 #stores-learn-more{
