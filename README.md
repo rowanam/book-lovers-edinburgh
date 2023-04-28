@@ -404,7 +404,7 @@ Website performance
 
 ## Deployment
 
-The project was deployed using GitHub pages
+The project was deployed using <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
 
 The steps to deploy were as follows:
 - Open the repository in GitHub
