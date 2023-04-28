@@ -373,7 +373,15 @@ Image sizes
 
 **All Pages**
 
-- landing and page headings image - photo by Suzy Hazelwood, <a href="https://www.pexels.com/photo/assorted-title-books-1887609/" target="_blank">Pexels</a>
+Favicon
+- <a href="https://icons8.com/icon/72nVaLzg9k5q/books" target="_blank">Books</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>
+
+Landing and page headings image
+- Photo by Suzy Hazelwood, <a href="https://www.pexels.com/photo/assorted-title-books-1887609/" target="_blank">Pexels</a>
+
+**Home Page**
+
+- Stores section image - photo by cottonbro studio, <a href="https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-reading-books-4855552/" target="_blank">Pexels</a>
 
 **Club Page**
 
