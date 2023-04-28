@@ -491,6 +491,10 @@ Golden Hare Books
 - store image - <a href="https://www.facebook.com/GoldenHareBooks/" target="_blank">Facebook</a>
 - description - <a href="https://goldenharebooks.com/pages/about-us" target="_blank">Golden Hare Books</a>
 
+### Code Attributions
+
+- The code to make the footer social media links was adapted from Code Institute's <a href="https://github.com/Code-Institute-Solutions/Love-Running-Solutions" target="_blank">Love Running</a> project
+
 ### Content
 
 All content not attributed above was written by the developer
