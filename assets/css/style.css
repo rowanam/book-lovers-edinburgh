@@ -1158,7 +1158,7 @@ then move to the top of the section on smaller screen sizes */
     }
 
     #club-current-book-description{
-        width: calc(100% - 329px);
+        width: calc(100% - 330px);
     }
 
     #club-current-book-buy{
