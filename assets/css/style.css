@@ -1095,6 +1095,10 @@ excludes nav bar, image and footer social media links */
     float: right;
 }
 
+#club-about-first-text-last-p{
+    margin-bottom: 0;
+}
+
 .club-page-about-image{
     width: 400px;
     float: left;
@@ -1219,6 +1223,10 @@ excludes nav bar, image and footer social media links */
     
     .club-page-about-text{
         width: 100%;
+    }
+
+    #club-about-first-text-last-p{
+        margin-bottom: revert;
     }
 
     .club-page-image{
