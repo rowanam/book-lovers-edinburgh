@@ -1,10 +1,10 @@
 # Book Lovers Edinburgh
 
-Book Lovers Edinburgh aims to be a one-stop-shop for book lovers who live in or are visiting Edinburgh. It provides both a community in the form of a monthly book club and information relevant to the Edinburgh literary scene, including recommendations for books based or written in this city or in Scotland, and for bookstores in Edinburgh.
+Book Lovers Edinburgh aims to be a one-stop-shop for book lovers who live in or are visiting Edinburgh. It provides both a community in the form of a monthly book club and information relevant to the Edinburgh literary scene, including recommendations for books based or written in this city or Scotland, and for bookstores in Edinburgh.
 
 For the user, this site provides a way to meet other book lovers in the city and useful information about Edinburgh's literary history and retail.
 
-For the creator, this site encourages the growth of the book club and wider community by provding useful information and by creating a positive user experience.
+For the creator, this site encourages the growth of the book club and wider community by providing useful information and by creating a positive user experience.
 
 View the live website here - <a href="https://rowanam.github.io/book-lovers-edinburgh/" target="_blank">Book Lovers Edinburgh</a>
 
@@ -57,7 +57,7 @@ I created sketches of the home page and layouts for specific sections on paper. 
 
 I chose a "bookish" looking font for the headings and logo ([Playfair Display](https://fonts.google.com/specimen/Playfair+Display)) and a clean, sans-serif font for the main text ([Montserrat](https://fonts.google.com/specimen/Montserrat)). This gives the website a literary aesthetic while still feeling modern. On the landing page, a further cursive font was used for the "welcome to" portion of the heading ([Allison](https://fonts.google.com/specimen/Allison)). All fonts were chosen from [Google Fonts](https://fonts.google.com/).
 
-The main theme color for the website is a shade of dark maroon (#670707), inspired by the color of old bound books. The home page has a welcome image that matches the theme color. The welcome logo uses a shade of dark gray as a background (#3e3e3e), which is repeated in the footer when a user hovers over a social media link. The site also uses the color oldlace (#fdf5e6) for the background box of the newsletter sign up confirmation page and the favicon.
+The main theme colour for the website is a shade of dark maroon (#670707), inspired by the colour of old bound books. The home page has a welcome image that matches the theme colour. The welcome logo uses a shade of dark grey as a background (#3e3e3e), which is repeated in the footer when a user hovers over a social media link. The site also uses the colour oldlace (#fdf5e6) for the background box of the newsletter sign up confirmation page and the favicon.
 
 Images of book covers are used frequently throughout the website, as well as images of recommended bookstores and decorative pictures for some of the sections.
 
@@ -67,7 +67,7 @@ Images of book covers are used frequently throughout the website, as well as ima
 
 ### Header and Footer
 
-The header and footer remain consistent throughtout the site.
+The header and footer remain consistent throughout the site.
 
 Header
 
@@ -92,7 +92,7 @@ Footer
 
 - Contains a sign up form for a newsletter, requiring a name and email address to sign up
     - The form validates input and requires both fields to be entered before submission
-    - The sign up button is responsive to mouse hover through inversion of the maroon and white colors
+    - The sign up button is responsive to mouse hover through inversion of the maroon and white colours
 - Social media links turn grey when hovered over and open in new tabs when clicked
     - Social media icons were added from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
 - Copyright information
@@ -112,21 +112,21 @@ Welcome Section
 All Main Sections
 
 - All of the main sections on the home page have the same height (700px) on large and medium screen sizes to create a consistent structure
-- The content is always centered horizontally annd vertically in the section with enough white space around it to not feel crowded
+- The content is always centred horizontally and vertically in the section with enough white space around it to not feel crowded
 - The margins of the sections are decreased on mobile screen sizes
 
 Club Section
 
 ![home page club section](documentation/images/home-club.png)
 
-- A large, colorful image of the book cover grabs the user's attention and provides information about the upcoming book club focus
+- A large, colourful image of the book cover grabs the user's attention and provides information about the upcoming book club focus
 - The heading and text provide further information about the book and the time and location of the meet-up
 - A link is then provided to continue to the club page with more information
 
 ![home page club section displayed on different screen sizes](documentation/images/home-club-devices-display-mockup.png)
 
 - Responsive layout:
-    - The three pieces (heading, image and text) are laid out in such a way that on large screens the book cover image is prominent, providing both color and information, while the heading and text line up with the top and bottom of the image respectively to create balance
+    - The three pieces (heading, image and text) are laid out in such a way that on large screens the book cover image is prominent, providing both colour and information, while the heading and text line up with the top and bottom of the image respectively to create balance
     - On medium screen sizes, the heading  moves to the top to give it and the body of text more space
     - On small screen sizes, the heading, image and text stack on top of each other to give each element enough space
 
@@ -167,8 +167,8 @@ Heading Section
 - All pages other than the home page have a heading section with the main heading of the page
 - These sections use the same image as the home page welcome section
     - The dark background provides visual separation from the header while maintaining consistency across the site
-- The heading is centered on all pages so it won't look misaligned with any content that follows on the page, and becomes left-aligned on mobile device screen sizes
-- The gray background is slightly darker in these sections than in the home page welcome section to improve readability
+- The heading is centred on all pages so it won't look misaligned with any content that follows on the page, and becomes left-aligned on mobile device screen sizes
+- The grey background is slightly darker in these sections than in the home page welcome section to improve readability
 
 ### <a href="https://rowanam.github.io/book-lovers-edinburgh/club.html" target="_blank">Club Page</a>
 
@@ -210,7 +210,7 @@ Find Us Section
 
 Welcome and Introduction Sections
 
-![recommendations page welcome and introducton sections](documentation/images/recommendations-heading-intro.png)
+![recommendations page welcome and introduction sections](documentation/images/recommendations-heading-intro.png)
 
 - A short introduction is provided explaining what is on this page
 - The upper and lower margins on the introduction section are decreased compared with other sections as it has no headings or images, and to place it closer to the main page heading
@@ -223,12 +223,12 @@ Other Sections
     - a short description of the content of that section
     - one featured book, with a title and author, a large cover image, a story taster, a short comment on the book and its accolades, a review of the book, and link to further information about the book on Goodreads - this information is all useful to a user who wants to learn more about Scottish and Edinburgh-based books
     - further book recommendations that fall within that category, three newly written books and three older classics
-- The layout of the sections was created so that there is an overarching description on top, a middle portion that is balances between an image and text, and a final wide portion at the bottom that is visually separated by lines on the top and bottom, overall creating a balanced presentation of information that can be visually grouped and distinguished
+- The layout of the sections was created so that there is an overarching description on top, a middle portion that is balanced between an image and text, and a final wide portion at the bottom that is visually separated by lines on the top and bottom, overall creating a balanced presentation of information that can be visually grouped and distinguished
 
 ![recommendations page edinburgh books section on a horizontal tablet device size](documentation/images/recommendations-edinburgh-books.png)
 
 - More book recommendations are provided in a delineated portion at the bottom of each section
-    - Initially, the book are listed with the heading on the left, separated from the list by a line as this layout provides good spacing on large screens
+    - Initially, the books are listed with the heading on the left, separated from the list by a line as this layout provides good spacing on large screens
     - As the window gets smaller, the layout rearranges to allow each element sufficient space
 
 ![recommendations page more books portion](documentation/images/recommendations-edinburgh-authors-more.png)
@@ -240,7 +240,7 @@ Where to Buy Section
 ![recommendations page where to buy section](documentation/images/recommendations-where-buy.png)
 
 - Final page section provides information on where to buy the recommended books
-    - A external link to an online book ordering platform, and a link to the Bookstores page
+    - An external link to an online book ordering platform, and a link to the Bookstores page
 
 ### <a href="https://rowanam.github.io/book-lovers-edinburgh/stores.html" target="_blank">Stores Page</a>
 
@@ -255,7 +255,7 @@ Favourite Stores Section
 
 ![stores page favourites section](documentation/images/stores-fav.png)
 
-- Three Ediburgh bookstore recommendations are provided, each with:
+- Three Edinburgh bookstore recommendations are provided, each with:
     - the store name
     - an image of the store
     - a comment on why we recommend that store
@@ -285,7 +285,7 @@ More Stores Section
 ![Book Lovers Edinburgh favicon in browser tab](documentation/images/favicon-tab.png)
 
 - The website has a favicon of a stack of books that is displayed in the browser tab
-- It uses the main maroon theme color (#670707) and oldlace (#fdf5e6)
+- It uses the main maroon theme colour (#670707) and oldlace (#fdf5e6)
 - The icon was created using <a href="https://icons8.com/" target="_blank">Icons8</a>
 
 ### Feature Changes
@@ -296,7 +296,7 @@ Social Events Section
 - When the project was initially planned, it included a further page listing other social events set up by members of the community. This would increase user value by creating more opportunities to engage with the book loving community in Edinburgh. A "social events" nav bar item and home page section are included in earlier versions of the project. However, it was decided that the feature was not necessary for the first stage and the section was removed.
 
 Book Recommendations
-- Initially the recommendations section showed books read in previous book clubs, however I realised it didn't make sense to simply recommend random books in the style of a book blog. It fit more to the purpose of the page to recommend books specific to the city of Edinburgh and the country, so while creating the recommendations page I pivoted to this plan and replaced all of the pre-exisinting books with Scotland-relevent ones.
+- Initially the recommendations section showed books read in previous book clubs, however I realised it didn't make sense to simply recommend random books in the style of a book blog. It fits more to the purpose of the page to recommend books specific to the city of Edinburgh and the country, so while creating the recommendations page I pivoted to this plan and replaced all of the pre-existing books with Scotland-relevant ones.
 
 Signed Up Page
 - The plan for the form submission was initially to use the [Code Institute](https://codeinstitute.net/) generic form dump, but I realised it would improve the appeal of the page to create a custom "form submitted" confirmation page. This also means the user can navigate back to any part of the website without having to use the browser back button.
@@ -336,26 +336,26 @@ The strategy I developed to achieve my desired layout was using a flexbox where,
 
 To create responsiveness, as the screen size reduces to a medium screen the flexbox is changed to row positioning. The heading is assigned a width of 100% and the image position is returned to static, putting the heading on top while aligning the image and text block next to each other beneath. 
 
-On smaller screens, it is then easy to return the flexbox to a column oritentation and stack all of the pieces on top of one another.
+On smaller screens, it is then easy to return the flexbox to a column orientation and stack all of the pieces on top of one another.
 
 This layout structure works relatively well, allowing easy switching of orientations for different screen sizes and control of how the text is positioned vertically using flex-grow and space-between. 
 
-However, this certainly is not the cleanest solution as it requires manual defining of the width of the text and heading when they are placed next to the image. (Since the image is positioned absolutely and thus taken out of the flow of the document, the text items manually have to be given space to avoid it.) The width then has to be rededfined whenever the image size changes. In future updates a cleaner solution would be desirable.
+However, this certainly is not the cleanest solution as it requires manual defining of the width of the text and heading when they are placed next to the image. (Since the image is positioned absolutely and thus taken out of the flow of the document, the text items manually have to be given space to avoid it.) The width then has to be redefined whenever the image size changes. In future updates a cleaner solution would be desirable.
 
 ### Responsiveness
 
 Since many of the pages and sections have different content, layouts and amounts of text, I had to create several different responsiveness structures throughout the website. This was the aspect of building the website that took by far the longest, and was much more challenging than I expected.
 
 The main ways I made the site responsive in terms of layout were by:
-- centering all the content within each section using flexboxes and then decreasing the margins around the content on smaller screen sizes
+- centring all the content within each section using flexboxes and then decreasing the margins around the content on smaller screen sizes
 - changing the layout of content so it would appear balanced and spaced out correctly on all screen sizes, especially using the three part layout structure discussed above
-- having headings and short pieces of free-floating text initially centered on the page, then aligned left on mobile screen sizes
+- having headings and short pieces of free-floating text initially centred on the page, then aligned left on mobile screen sizes
 
 For some sections I created other specific responsiveness rules that matched the requirements of that block of content. All of the site responsiveness is consistent to the best of my knowledge with good design practice. 
 
 Initially I coded each section to respond to screen size changes individually, according to how its content moved around. After completing a few sections I realised there were some points that made the most sense to create media queries for - 1000px, 830px and 620px, which I approximated as being medium screen sizes, horizontal mobiles and vertical mobiles. These were chosen because they are the points on this site where content would consistently get so crowded or strange-looking that a layout change was needed. Other media query widths are used for specific sections that needed a layout change at different points.
 
-I also realised that some of the concepts of how the sections should respond to screen size changes were similar, so I went back and refactored some of the style rules to make more universal responsiveness styles that applied to multiple sections, removing some of the individual styling I had created along the way. However, as I was learning this as I was going along, I can see that there are more ways I could consolidate responsiveness rules to decrease the complexity of the code and make it easier to navigate, or easier to add more sections in the future. Therefore another future fix I would make is refactoring the responsiveness style rules to make the css simpler and cleaner.
+I also realised that some of the concepts of how the sections should respond to screen size changes were similar, so I went back and refactored some of the style rules to make more universal responsiveness styles that applied to multiple sections, removing some of the individual styling I had created along the way. However, as I was learning this as I was going along, I can see that there are more ways I could consolidate responsiveness rules to decrease the complexity of the code and make it easier to navigate, or easier to add more sections in the future. Therefore another future fix I would make is refactoring the responsiveness style rules to make the CSS simpler and cleaner.
 
 ---
 ## Bug Fixes
@@ -367,7 +367,7 @@ Signed up page box overlap with footer
 - On vertical mobile devices, the height of the box was initially set to fit-content. I wanted the footer to be at the bottom of the page if space allowed, and then to be pushed further down if the box became too long and overlapped with the footer. A solution was attempted by setting min-height to fit-content, however this didn't work. I fixed the main issue, which was the box overlapping with the footer, by picking a minimum height (600px) that would work for even very narrow screens, so the box should never overlap. However, in future I would like to find a cleaner solution to achieve my original plan of having the footer visible at the bottom of the page if space allows.
 
 Image stretching on Safari
-- When viewed on Safari, some of the images became stretch and disported at certain break points in the responsive style rules. Upon investigation, it seemed the issue was caused by setting fixed heights for the images and seting width to fit-content, which Safari renders differently than other browsers. To fix this issue, the width rules were removed, as it was found that they were not necessary to style the images.
+- When viewed on Safari, some of the images became stretched and distorted at certain break points in the responsive style rules. Upon investigation, it seemed the issue was caused by setting fixed heights for the images and setting width to fit-content, which Safari renders differently than other browsers. To fix this issue, the width rules were removed, as it was found that they were not necessary to style the images.
 
 Nav bar misplaced and wrapping issue on smaller screens
 - Two bugs were spotted in the nav bar
@@ -375,14 +375,14 @@ Nav bar misplaced and wrapping issue on smaller screens
     - On some narrow screen sizes, the nav bar wraps onto the next line. I fixed this issue by first reducing the spacing between menu items, then reducing the space between the logo and the nav bar to give it more room to wrap
 
 Welcome logo and headings widths on narrow screens
-- On some narrow screen sizes (e.g. Galaxy Fold), the logo and some headings were wider than the screen and caused horizontal scrolling and layout distortion. I fixed this by adding media queries at 330px to target these issues on narrow screens by reducing the size of all text and of the logo and headings elements. This layout looks a little unbalaned, and in future a burger menu would be a better design solution.
+- On some narrow screen sizes (e.g. Galaxy Fold), the logo and some headings were wider than the screen and caused horizontal scrolling and layout distortion. I fixed this by adding media queries at 330px to target these issues on narrow screens by reducing the size of all text and of the logo and headings elements. This layout looks a little unbalanced, and in future a burger menu would be a better design solution.
 
 ---
 ## Known Bugs and Future Fixes
 ---
 
 Page heading sections line break on small screens
-- On small screen sizes, h1 breaks onto multiples lines and automatically takes up the full width of the parent. In future I would like to find a way for the width of the element to "shrink-wrap" to stay the width of the text content so the padding with background color does not extend to the edges of the section.
+- On small screen sizes, h1 breaks onto multiple lines and automatically takes up the full width of the parent. In future I would like to find a way for the width of the element to "shrink-wrap" to stay the width of the text content so the padding with background colour does not extend to the edges of the section.
 
 Website performance
 - When running the site pages through Chrome Lighthouse, performance was flagged as an issue. This was in part due to large image sizes, so I re-uploaded several of the images at reduced file sizes. However, performance could still be improved through further image compression and other approaches.
@@ -411,7 +411,7 @@ Website performance
 ### Personal Use
 - The developer carried out testing through several avenues:
     - Chrome devtools was used to ensure website layout looks good and is responsive on several different device sizes
-    - Tested the site several on Chrome, Firefox and Safari, and on a laptop and mobie device, checking styles, content and responsiveness
+    - Tested the site several on Chrome, Firefox and Safari, and on a laptop and mobile device, checking styles, content and responsiveness
     - Ensured all links work, external links open in new tab, form inputs are required and validated
 - Friends and family tested the website to test user experience, design appeal, ensure understandable structure on first visit and to look for any bugs
 
