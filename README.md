@@ -325,6 +325,9 @@ Page heading sections
 Nav bar on small screens
 - On some narrow screen sizes (e.g. Galaxy Fold), the nav bar wraps onto the next line. I attempted to mitigate this issue by reducing the spacing between menu items a little so it would work well on more screen sizes, but in the long run the best fix would be a burger menu.
 
+Image sizes
+- Large image sizes reduce the website performance. Many of the images were already re-uploaded at reduced file sizes, but they could be compressed more and/or use more efficient file types to furtuer improve performance.
+
 ---
 ## Testing
 ---
@@ -387,11 +390,11 @@ Toppings
 - store image - <a href="https://twitter.com/toppingsedin/status/1343137443965521922" target="_blank">Twitter</a>
 
 Lighthouse
-- store image - <a href="https://www.takeoneaction.org.uk/2022/09/toaff22-x-lighthouse-books-watch-read-think-act/" target="_blank">Take One Action</a>
+- store image - <a href="https://www.theworldbucketlist.com/top-10-best-bookshops-in-edinburgh/" target="_blank">The World Bucket List</a>
 - description - <a href="https://lighthousebookshop.com/about" target="_blank">Lighthouse Bookshop</a>
 
 Golden Hare Books
-- store image - <a href="https://list.co.uk/news/2255/golden-hare-books-brings-us-a-brand-new-festival" target="_blank">The List</a>
+- store image - <a href="https://www.facebook.com/GoldenHareBooks/" target="_blank">Facebook</a>
 - description - <a href="https://goldenharebooks.com/pages/about-us" target="_blank">Golden Hare Books</a>
 
 ### Content
