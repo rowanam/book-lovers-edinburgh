@@ -61,6 +61,7 @@ The main theme color for the website is a shade of dark maroon (#670707), inspir
 
 Images of book covers are used frequently throughout the website, as well as images of recommended bookstores and decorative pictures for some of the sections.
 
+---
 ## Features
 ---
 
@@ -152,8 +153,7 @@ Recommendations Section
 
 Bookstores Section
 
-*UPDATE IMAGE*
-<img src="documentation/images/home-stores.png" alt="Book Lovers Edinburgh home page stores section">
+![home page stores section](documentation/images/home-stores.png)
 
 - Contains a heading, an image of a person holding books in a bookstore and some text with general information and a list of store styles a user might be looking for
 - Links to the stores page to encourage user to learn about the recommended stores
@@ -182,10 +182,7 @@ About Section
 
 Current Book Section
 
-*UPDATE IMAGE*
 ![club page current book section, image one](documentation/images/club-current-book-one.png)
-
-*UPDATE IMAGE*
 ![club page current book section, image two](documentation/images/club-current-book-two.png)
 
 - This section provides information about the book that will be discussed at the upcoming book club
@@ -228,18 +225,19 @@ Other Sections
     - further book recommendations that fall within that category, three newly written books and three older classics
 - The layout of the sections was created so that there is an overarching description on top, a middle portion that is balances between an image and text, and a final wide portion at the bottom that is visually separated by lines on the top and bottom, overall creating a balanced presentation of information that can be visually grouped and distinguished
 
-![recommendations page edinburgh books section on a horizontal tablet device size](documentation/images/recommendations-edinburgh-books-one.png)
+![recommendations page edinburgh books section on a horizontal tablet device size](documentation/images/recommendations-edinburgh-books.png)
 
 - More book recommendations are provided in a delineated portion at the bottom of each section
     - Initially, the book are listed with the heading on the left, separated from the list by a line as this layout provides good spacing on large screens
     - As the window gets smaller, the layout rearranges to allow each element sufficient space
 
-*ADD IMAGE OF REVIEWS PORTION*
-<img src="documentation/images/recommendations-edinburgh-authors-mobile-v-two.png" alt="recommendations page edinburgh books section on a vertical mobile device size" width="40%">
+![recommendations page more books portion](documentation/images/recommendations-edinburgh-authors-more.png)
+<img src="documentation/images/recommendations-edinburgh-authors-more-medium-screen.png" alt="recommendations page more books portion on a medium screen size" width="79%">
+<img src="documentation/images/recommendations-edinburgh-authors-mobile-v.png" alt="recommendations page edinburgh books section on a vertical mobile device size" width="20%">
 
 Where to Buy Section
 
-/*ADD IMAGE OF WHERE TO BUY SECTION*/
+![recommendations page where to buy section](documentation/images/recommendations-where-buy.png)
 
 - Final page section provides information on where to buy the recommended books
     - A external link to an online book ordering platform, and a link to the Bookstores page
@@ -255,7 +253,7 @@ Heading and Introduction Sections
 
 Favourite Stores Section
 
-![stores page favourites section](documentation/images/stores-fav-one.png)
+![stores page favourites section](documentation/images/stores-fav.png)
 
 - Three Ediburgh bookstore recommendations are provided, each with:
     - the store name
@@ -267,7 +265,7 @@ Favourite Stores Section
 
 More Stores Section
 
-![stores page more stores section](documentation/images/stores-more-one.png)
+![stores page more stores section](documentation/images/stores-more.png)
 
 - Includes a short description of this section
 - Two embedded YouTube videos showcase more bookstore recommendations in Edinburgh
@@ -394,16 +392,16 @@ Website performance
 ---
 
 ### HTML Validator
-- All pages passed through the validator with no errors
+- All pages passed through the official <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator</a> with no errors
 
 ### CSS Validator
-- The stylesheet passed through the validator with no errors
+- The stylesheet passed through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS (Jigsaw) Validator</a> with no errors
 
 ### Lighthouse
 
 ![home page Lighthouse report](documentation/images/home-page-lighthouse.png)
 
-- All pages were run through Chrome <a href="https://developer.chrome.com/docs/lighthouse/overview/" target="_blank">Lighthouse</a> and received between 90 and 100 on Accessibility and Best Practices
+- All pages were run through Chrome <a href="https://developer.chrome.com/docs/lighthouse/overview/" target="_blank">Lighthouse</a> and received 100 on Accessibility and above 90 on Best Practices
 - Performance could be improved, as noted above
 
 ### Wave
@@ -411,7 +409,10 @@ Website performance
 - No errors were flagged
 
 ### Personal Use
-- The developer moved through the entire site several times on Chrome and Safari, and on a laptop and mobile device, checking content, styles and behaviours
+- The developer carried out testing through several avenues:
+    - Chrome devtools was used to ensure website layout looks good and is responsive on several different device sizes
+    - Tested the site several on Chrome, Firefox and Safari, and on a laptop and mobie device, checking styles, content and responsiveness
+    - Ensured all links work, external links open in new tab, form inputs are required and validated
 - Friends and family tested the website to test user experience, design appeal, ensure understandable structure on first visit and to look for any bugs
 
 ---

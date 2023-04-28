@@ -1144,7 +1144,7 @@ excludes nav bar, image and footer social media links */
 #club-current-book-reviews{
     clear: both;
     margin: 30px 0 20px;
-    padding-bottom: 10px;
+    padding: 10px 0;
     text-align: center;
     border-top: solid 1px;
     border-bottom: solid 1px;
