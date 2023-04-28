@@ -285,11 +285,18 @@ footer input{
     
     nav{
         float: left;
+        clear: both;
         margin: 0 0 0 20px;
     }
 
     nav li{
         margin: 0 13px 0 0;
+    }
+}
+
+@media (max-width: 360px){
+    #logo{
+        margin-bottom: 8px;
     }
 }
 
