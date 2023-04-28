@@ -313,6 +313,9 @@ Signed up page box overlap with footer
 ## Known Bugs and Future Fixes
 ---
 
+Home page welcome logo and headings width
+- On some small screen sizes, (e.g. Galaxy Fold), the logo and book recommendations heading are wider than the screen and cause horizontal scrolling on the mobile screen.
+
 Home page footer newsletter signup: form and description are spaced apart using a margin. would prefer to do this using flexbox space-between, but when I changed the footer-form-wrapper div display property to flex, the whole div was shifted to the left, and I don't know why.
 
 Home Page book club section date and location
