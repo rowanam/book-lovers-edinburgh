@@ -6,9 +6,9 @@ For the user, this page will provide a way to meet other book lovers in the city
 
 For the creator, this page will encourage the growth of the book club and wider community by provding useful information and by creating a positive user experience on the website.
 
-View the live website here - <a href="#" target="_blank">Book Lovers Edinburgh</a>
+View the live website here - <a href="https://rowanam.github.io/book-lovers-edinburgh/" target="_blank">Book Lovers Edinburgh</a>
 
-*insert images of deployed website here*
+![website displayed on different screen sizes](documentation/images/devices-display-mockup.png)
 
 ## Creation Process
 ---
@@ -30,7 +30,7 @@ I created sketches of the home page on paper to visualise the layout created in 
 
 I chose a "bookish" looking font for the headings and logo (Playfair Display) and a clean, sans-serif font for the main text (Montserrat) so that the website would have a literary aesthetic but still feel modern. On the landing page, a further cursive font was used for the "welcome to" portion of the heading (Allison). All fonts were chosen from Google Fonts.
 
-The main theme color for the website is a shade of dark maroon (rgb(103,7,7)), similar to the color of old bound books. The home page has an aesthetically pleasing welcome image that matches the theme color. The welcome logo also uses a shade of dark gray as a background (#3e3e3e), which is repeated in the footer when a user hovers over a social media link.
+The main theme color for the website is a shade of dark maroon (#670707), similar to the color of old bound books. The home page has an aesthetically pleasing welcome image that matches the theme color. The welcome logo uses a shade of dark gray as a background (#3e3e3e), which is repeated in the footer when a user hovers over a social media link. The site also uses the color oldlace for the background box of the newsletter sign up confirmation page and the favicon.
 
 ## Features
 ---
@@ -41,14 +41,14 @@ The header and footer remain consistent throughtout the site.
 
 Header
 
-*insert header image here*
+![header](documentation/images/header.png)
 
 - includes website logo on the left and nav bar on the right
 - logo links back to home page when clicked
 - on smaller screen sizes, nav bar moves underneath the logo
 - nav links are underlined to show current page and become red and underlined when hovered over
 
-*insert logo image here*
+![logo](documentation/images/logo.png)
 
 - the logo uses Playfair Display, a literary-looking font
 - I sketched out the idea for the logo on paper, and wanted two lines of the same width, and where the word "Edinburgh" was shorter than the words "Book Lovers". This was both for aesthetic purposes and to put the emphasis on the theme of books.
@@ -56,7 +56,7 @@ Header
 
 Footer
 
-*insert footer image here*
+![footer](documentation/images/footer.png)
 
 - contains a sign up form for a newsletter, requiring a name and email address to sign up
     - the form validates input and requires both fields to be entered before submission- the sign up button is responsive to mouse hover through the maroon and white colors inverting
@@ -64,11 +64,11 @@ Footer
     - social media icons were added from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
 - copyright information
 
-### <a href="#" target="_blank">Home Page</a>
+### <a href="https://rowanam.github.io/book-lovers-edinburgh/index.html" target="_blank">Home Page</a>
 
 Welcome Section
 
-*insert welcome section image here*
+![home page welcome section](documentation/images/home-welcome.png)
 
 - the height of the section (500px) was chosen so that there is a large main image that creates a positive aesthetic impression on the user, but enough room underneath to see content from the next section and encourage further scrolling
 - a large, high-quality, wide image of books is used on the landing page that remains unpixelated and useable across all device sizes
@@ -84,7 +84,7 @@ All Main Sections
 
 Club Section
 
-*insert club section image here*
+![home page club section](documentation/images/home-club.png)
 
 - a large, colorful image of the book cover grabs the user's attention and provides information about the upcoming book, which is The Kingdoms by Natasha Pulley
 - the heading and text provide further information about the book and the time and location of the meet-up
@@ -95,7 +95,7 @@ Club Section
 
 Recommendations Section
 
-*insert recommendations section image here*
+![home page recommendations section](documentation/images/home-recommendations.png)
 
 - headings and description introduce this section and let the user know that these are book recommendations for Edinburgh-based and Scottish books
 - three books are shown, each with title and author, cover image and a short story taster
@@ -108,7 +108,8 @@ Recommendations Section
 - the cover images and descriptions were taken from a variety of sources, all attributed below
 - there is then a link to the recommendations page to encourage users to continue reading
 
-*insert image of recommendations section at different device widths here*
+![home page recommendations section](documentation/images/home-recommendations-medium-screen.png)
+![home page recommendations section](documentation/images/home-recommendations-smaller-screen.png)
 
 - Initially, the three books and their descriptions are displayed in three columns.
 - As the screen gets narrower and space becomes tight, the section switches to a horizontal layout where the text is aligned next to the book cover and the images alternate between the left and right. This creates a pleasing balance while also spreading out the information so the section doesn't feel over-crowded.
@@ -118,7 +119,7 @@ Recommendations Section
 
 Bookstores Section
 
-*insert bookstores section image here*
+<img src="documentation/images/home-stores.png" alt="Book Lovers Edinburgh home page stores section">
 
 - this section contains a heading, an image of a person holding books in a bookstore and some text with general information and a list of store styles a user might be looking for
 - there is then a link to the stores page to encourage them to learn about the recommended stores
@@ -127,18 +128,18 @@ Bookstores Section
 
 Heading Section
 
-*insert example heading section image here*
+<img src="documentation/images/club-main-heading.png" alt="Book Lovers Edinburgh club page main heading section">
 
 - all pages other than the home page have a heading section with the main heading of the page
 - I wanted the heading to have a dark background to visually separate it from the header, and decided the image from the home page would fulfill this requirement while both looking aethetically pleasing and maintaining consistency across the site
 - the heading is centered on all pages so it won't look misaligned with any content that follows on the page
 - the gray background is slightly darker in these sections than in the home page welcome section to improve readability
 
-### <a href="#" target="_blank">Club Page</a>
+### <a href="https://rowanam.github.io/book-lovers-edinburgh/club.html" target="_blank">Club Page</a>
 
 About Section
 
-*insert about section image here*
+<img src="documentation/images/club-about.png" alt="Book Lovers Edinburgh club page about section">
 
 - this section provides information about the monthly book club
 - there are two images, one showing two people sitting on a couch reading books, one showing the interior of a cafe
@@ -146,7 +147,8 @@ About Section
 
 Current Book Section
 
-*insert current book section image here*
+<img src="documentation/images/club-current-book-one.png" alt="Book Lovers Edinburgh club page current book section, image one">
+<img src="documentation/images/club-current-book-two.png" alt="Book Lovers Edinburgh club page current book section, image two">
 
 - this section provides information about the book that will be discussed at the upcoming book club
 - compared to the home page, there is further information about the book
@@ -160,17 +162,17 @@ Current Book Section
 
 Find Us Section
 
-*insert find us section image*
+<img src="documentation/images/club-find-us.png" alt="Book Lovers Edinburgh club page find us section">
 
 - the address of the cafe where the book club is held
 - and embedded map showing the location of the cafe
 - a contact email is provided so the user can reach out with any questions
 
-### <a href="#" target="_blank">Recommendations Page</a>
+### <a href="https://rowanam.github.io/book-lovers-edinburgh/recommendations.html" target="_blank">Recommendations Page</a>
 
-Introduction Section
+Welcome and Introduction Sections
 
-*insert introduction section image*
+<img src="documentation/images/recommendations-heading-intro.png" alt="Book Lovers Edinburgh recommendations page welcome and introducton sections">
 
 - a short introduction is provided explaining what is on this page
 - the upper and lower margins on this page are decreased compared with other sections as it has no headings or images, and to place it closer to the main page heading
@@ -195,34 +197,38 @@ Other Sections
 
 Edinburgh Books Section
 
-*image of edinburgh books section here*
+<img src="documentation/images/recommendations-edinburgh-books-one.png" alt="Book Lovers Edinburgh recommendations page Edinburgh books section, image one">
+<img src="documentation/images/recommendations-edinburgh-books-two.png" alt="Book Lovers Edinburgh recommendations page Edinburgh books section, image two">
 
 *images of different portions and at different screen sizes*
 
 Edinburgh Authors Section
 
-*image of edinburgh authors section here*
+<img src="documentation/images/recommendations-edinburgh-authors-one.png" alt="Book Lovers Edinburgh recommendations page edinburgh authors section, image one">
+<img src="documentation/images/recommendations-edinburgh-authors-two.png" alt="Book Lovers Edinburgh recommendations page edinburgh authors section, image two">
 
 *images of different portions and at different screen sizes*
 
 Scottish Literature Section
 
-*image of scottish literature section here*
+<img src="documentation/images/recommendations-scottish-lit-one.png" alt="Book Lovers Edinburgh recommendations page Scottish lit section, image one">
+<img src="documentation/images/recommendations-scottish-lit-two.png" alt="Book Lovers Edinburgh recommendations page Scottish lit section, image two">
 
 *images of different portions and at different screen sizes*
 
-### <a href="#" target="_blank">Stores Page</a>
+### <a href="https://rowanam.github.io/book-lovers-edinburgh/stores.html" target="_blank">Stores Page</a>
 
-Introduction Section
+Heading and Introduction Sections
 
-*image of introduction section here*
+<img src="documentation/images/stores-heading-intro.png" alt="Book Lovers Edinburgh stores page heading and introductions sections">
 
 - a short introduction is provided explaining what is on this page
 - the layout and styles are the same as the introduction section of the Recommendations page for consistency
 
 Favourite Stores Section
 
-*image of favourite stores section*
+<img src="documentation/images/stores-fav-one.png" alt="Book Lovers Edinburgh stores page favourites section, image one">
+<img src="documentation/images/stores-fav-two.png" alt="Book Lovers Edinburgh stores page favourites section, image two">
 
 - three Ediburgh bookstore recommendations are provided, each with:
     - the store name
@@ -234,12 +240,41 @@ Favourite Stores Section
 
 More Stores Section
 
-*image of more stores section*
+<img src="documentation/images/stores-more-one.png" alt="Book Lovers Edinburgh stores page more section, image one">
+<img src="documentation/images/stores-more-two.png" alt="Book Lovers Edinburgh stores page more section, image two">
 
 - a short description of this section
 - two embedded YouTube videos are provided showcasing more bookstore recommendations in Edinburgh
     - this provides the user with more information while also increasing the interactivity and visual activity of the website
     - the videos can be controlled by the user
+
+### <a href="https://rowanam.github.io/book-lovers-edinburgh/signed-up.html" target="_blank">Signed Up Page</a>
+
+<img src="documentation/images/signed-up.png" alt="Book Lovers Edinburgh newsletter sign up confirmation page">
+
+- When the user submits the newsletter sign up form in the footer, they are brought to this page to "confirm" that they have successfully signed up
+- Having a confirmation page improves user experience in that it provides concrete feedback of actions taken
+- The signed up page maintains the rest of the website's appearance except a slight change to the footer - the sign up form has been removed, since they have obviously already signed up, and has been replaced with a thank you message
+
+### Favicon
+
+<img src="documentation/images/favicon-tab.png" alt="Book Lovers Edinburgh favicon in browser tab">
+
+- The website has a favicon of a stack of books that uses the main maroon theme color (#670707) and oldlace
+- The icon was created using <a href="https://icons8.com/" target="_blank">Icons8</a>
+
+### Major Feature Changes
+
+The major changes to the content of the layout after the initial project plan
+
+Social Events Section
+- As discussed above, the plan for the project intially included a social events section, which is present in earlier versions and was removed during the project creation.
+
+Book Recommendations
+- Initially the recommendations section showed books read in previous book clubs, however I realised it didn't make sense to simply recommend random books in the style of a book blog. It fit more to the purpose of the page to recommend books specific to the city of Edinburgh and the country, so while creating the recommendations page I pivoted to this plan and replaced all of the pre-exisinting books with Scotland-relevent ones.
+
+Signed Up Page
+- Planned to use the Code Institute form dump, but realised it would improve the appeal and realism of the page to create a custom "form submitted" confirmation page
 
 ### Future Features
 
@@ -249,19 +284,12 @@ Social Events Section
 Burger Menu
 - It is standard practice to collapse the navigation into a "burger menu" on mobile devices, and this is feature that would also look nice on this website in the future.
 
-### Major Feature Changes
-
-Social Events Section
-- As discussed above, the plan for the project intially included a social events section, which is present in earlier versions and was removed during the project creation.
-
-Book Recommendations
-- Initially the recommendations section showed books read in previous book clubs, however I realised it didn't make sense to simply recommend random books in the style of a book blog. It fit more to the purpose of the page to recommend books specific to the city of Edinburgh and the country, so while creating the recommendations page I pivoted to this plan and replaced all of the pre-exisinting books with Scotland-relevent ones.
-
 ---
 ## Technologies Used
 ---
 - HTML5
 - CSS3
+- Font Awesome Web Fonts and JavaScript
 
 ---
 ## Major Coding and Design Challenges
@@ -271,7 +299,7 @@ Book Recommendations
 
 A structure I used frequently throughout the site is the "three part layout" of a heading, an image and a body of text that start off with the image on one side and everything else aligned on the other side, moving to the heading being place on top, and then having everything stacked.
 
-*insert image of an example of this structure, e.g. home page club section*
+<img src="documentation/images/home-club.png" alt="Book Lovers Edinburgh favicon in browser tab">
 
 This was one of the first styles for the website that I developed and I experimented with how to do it on a simplified code using <a href="#" target="_blank">Brackets</a>. 
 
@@ -336,14 +364,30 @@ Image sizes
 ---
 
 ### HTML Validator
+- All pages passed through the validator with no errors
 
 ### CSS Validator
+- The stylesheet passed through the validator with no errors
 
 ### Lighthouse
+
+### Personal Use
+- The developer went through the entire site several times checking all of the content, styles and behaviours
+- Friends and family tested the website to ensure understandable structure on first visit and good design with no obvious errors
 
 ---
 ## Deployment
 ---
+The project was deployed using GitHub pages
+
+The steps to deploy were as follows:
+- Open the repository in GitHub
+- Navigate to Settings
+- Click on Pages
+- The Source should be set to "Deploy from a branch"
+- Under Branch, select "main"
+- Click Save
+- After waiting for the site to load and refreshing the page, the live site if available through the given link
 
 ---
 ## Attributions
