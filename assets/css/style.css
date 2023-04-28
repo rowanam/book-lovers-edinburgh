@@ -789,6 +789,8 @@ excludes nav bar, image and footer social media links */
         top: 15vh;
         font-size: 40px;
         line-height: 40px;
+        box-sizing: border-box;
+        max-width: 100%;
     }
     
     #heading-edin{
@@ -973,6 +975,12 @@ excludes nav bar, image and footer social media links */
     }
 }
 
+@media (max-width: 450px){
+    .home-rec-subheading{
+        font-size: 1.3rem;
+    }
+}
+
 /* OTHER PAGES */
 
 /* page headings */
@@ -1012,6 +1020,12 @@ excludes nav bar, image and footer social media links */
 
     .page-main-heading{
         text-align: center;
+    }
+}
+
+@media (max-width: 450px){
+    .page-main-heading{
+        font-size: 30px;
     }
 }
 
@@ -1619,6 +1633,12 @@ which is why the first break point occurs at 1200px */
     }
 }
 
+@media (max-width: 450px){
+    .three-part-layout-heading h3{
+        font-size: 1.3rem;
+    }
+}
+
 /* SIGNED UP PAGE */
 
 #thank-you-section{
@@ -1774,5 +1794,16 @@ box is currently positioned absolutely, not in the flow of the document, so can'
 
     .page-image{
         width: 100%;
+    }
+}
+
+/* small screen sizes, portrait mode */
+@media (max-width: 450px){
+    .section-heading{
+        font-size: 1.7rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
     }
 }
