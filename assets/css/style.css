@@ -1562,6 +1562,7 @@ which is why the first break point occurs at 1200px */
 .video{
     height: 315px;
     width: 560px;
+    border: none;
 }
 
 /* responsiveness */
