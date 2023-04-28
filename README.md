@@ -10,9 +10,7 @@ View the live website here - <a href="https://rowanam.github.io/book-lovers-edin
 
 ![website displayed on different screen sizes](documentation/images/devices-display-mockup.png)
 
----
 ## Creation Process - UXD
----
 
 ### Strategy
 
@@ -61,15 +59,13 @@ The main theme colour for the website is a shade of dark maroon (#670707), inspi
 
 Images of book covers are used frequently throughout the website, as well as images of recommended bookstores and decorative pictures for some of the sections.
 
----
 ## Features
----
 
 ### Header and Footer
 
 The header and footer remain consistent throughout the site.
 
-Header
+#### Header
 
 ![header](documentation/images/header.png)
 
@@ -78,7 +74,7 @@ Header
 - On smaller screen sizes, nav bar moves underneath the logo
 - Nav links are underlined to show current page and become red and underlined when hovered over
 
-Logo
+#### Logo
 
 ![logo](documentation/images/logo.png)
 
@@ -86,7 +82,7 @@ Logo
 - I sketched out the design for the logo on paper, and wanted two lines of the same width, where the word "Edinburgh" has a shorter height than the words "Book Lovers". This serves an aesthetic purpose as well as putting emphasis on the theme of books.
 - This design for the logo was then achieved using letter spacing and by transforming the height of the second line
 
-Footer
+#### Footer
 
 ![footer](documentation/images/footer.png)
 
@@ -99,7 +95,7 @@ Footer
 
 ### <a href="https://rowanam.github.io/book-lovers-edinburgh/index.html" target="_blank">Home Page</a>
 
-Welcome Section
+#### Welcome Section
 
 ![home page welcome section](documentation/images/home-welcome.png)
 
@@ -109,13 +105,13 @@ Welcome Section
 - The welcome logo further indicates the purpose and style of the website
     - For the welcome section logo, I added a line saying "welcome to", written in a cursive font to again create an aesthetic of writing and literature. The font used, Allison, matches the style of the rest of the page and is cursive while still being readable.
 
-All Main Sections
+#### All Main Sections
 
 - All of the main sections on the home page have the same height (700px) on large and medium screen sizes to create a consistent structure
 - The content is always centred horizontally and vertically in the section with enough white space around it to not feel crowded
 - The margins of the sections are decreased on mobile screen sizes
 
-Club Section
+#### Club Section
 
 ![home page club section](documentation/images/home-club.png)
 
@@ -130,7 +126,7 @@ Club Section
     - On medium screen sizes, the heading  moves to the top to give it and the body of text more space
     - On small screen sizes, the heading, image and text stack on top of each other to give each element enough space
 
-Recommendations Section
+#### Recommendations Section
 
 ![home page recommendations section](documentation/images/home-recommendations.png)
 
@@ -151,7 +147,7 @@ Recommendations Section
     - On mobile screens, the header, book cover and description all stack on top of each other
 - This progression of layout changes in response to device sizes is consistent with the responsiveness of the book club section and is maintained throughout the site.
 
-Bookstores Section
+#### Bookstores Section
 
 ![home page stores section](documentation/images/home-stores.png)
 
@@ -160,7 +156,7 @@ Bookstores Section
 
 ### Other Pages
 
-Heading Section
+#### Heading Section
 
 <img src="documentation/images/club-main-heading.png" alt="Book Lovers Edinburgh club page main heading section">
 
@@ -172,7 +168,7 @@ Heading Section
 
 ### <a href="https://rowanam.github.io/book-lovers-edinburgh/club.html" target="_blank">Club Page</a>
 
-About Section
+#### About Section
 
 ![club page about section](documentation/images/club-about.png)
 
@@ -180,7 +176,7 @@ About Section
 - There are two decorative images, one showing two people sitting on a couch reading books and one showing the interior of a cafe, to provide a sense of community feeling and a comfortable environment
 - The text provides information about the ethos of the club as well as practical information
 
-Current Book Section
+#### Current Book Section
 
 ![club page current book section, image one](documentation/images/club-current-book-one.png)
 ![club page current book section, image two](documentation/images/club-current-book-two.png)
@@ -198,7 +194,7 @@ Current Book Section
 - A link to the Recommendations page provides an opportunity to get more book recommendations
 - In terms of layout, the book cover image in this section is on the right to create balance on the page, after the about section before it with images on the left
 
-Find Us Section
+#### Find Us Section
 
 ![club page find us section](documentation/images/club-find-us.png)
 
@@ -208,14 +204,14 @@ Find Us Section
 
 ### <a href="https://rowanam.github.io/book-lovers-edinburgh/recommendations.html" target="_blank">Recommendations Page</a>
 
-Welcome and Introduction Sections
+#### Welcome and Introduction Sections
 
 ![recommendations page welcome and introduction sections](documentation/images/recommendations-heading-intro.png)
 
 - A short introduction is provided explaining what is on this page
 - The upper and lower margins on the introduction section are decreased compared with other sections as it has no headings or images, and to place it closer to the main page heading
 
-Other Sections
+#### Other Sections
 
 - This page contains three main sections showcasing three different categories of books - set in Edinburgh, written by Edinburgh-based authors and Scottish literature
 - Each section contains
@@ -235,7 +231,7 @@ Other Sections
 <img src="documentation/images/recommendations-edinburgh-authors-more-medium-screen.png" alt="recommendations page more books portion on a medium screen size" width="79%">
 <img src="documentation/images/recommendations-edinburgh-authors-mobile-v.png" alt="recommendations page edinburgh books section on a vertical mobile device size" width="20%">
 
-Where to Buy Section
+#### Where to Buy Section
 
 ![recommendations page where to buy section](documentation/images/recommendations-where-buy.png)
 
@@ -244,14 +240,14 @@ Where to Buy Section
 
 ### <a href="https://rowanam.github.io/book-lovers-edinburgh/stores.html" target="_blank">Stores Page</a>
 
-Heading and Introduction Sections
+#### Heading and Introduction Sections
 
 ![stores page heading and introductions sections](documentation/images/stores-heading-intro.png)
 
 - Provides a short introduction explaining what is on this page
 - The layout and styles are the same as the introduction section of the Recommendations page for consistency
 
-Favourite Stores Section
+#### Favourite Stores Section
 
 ![stores page favourites section](documentation/images/stores-fav.png)
 
@@ -263,7 +259,7 @@ Favourite Stores Section
     - an external link to the store's address on Google Maps
 - As in other sections, the heading and text are first aligned next to the image, then on the smaller screens the layout changes so elements are stacked
 
-More Stores Section
+#### More Stores Section
 
 ![stores page more stores section](documentation/images/stores-more.png)
 
@@ -309,16 +305,13 @@ Social Events Section
 Burger Menu
 - Collapse the navigation into a "burger menu" on mobile devices to improve visual spacing and usability
 
----
 ## Technologies Used
----
+
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Font Awesome](https://fontawesome.com/) Web Fonts and JavaScript
 
----
 ## Major Coding and Design Challenges
----
 
 ### Three Part Layout
 
@@ -357,9 +350,7 @@ Initially I coded each section to respond to screen size changes individually, a
 
 I also realised that some of the concepts of how the sections should respond to screen size changes were similar, so I went back and refactored some of the style rules to make more universal responsiveness styles that applied to multiple sections, removing some of the individual styling I had created along the way. However, as I was learning this as I was going along, I can see that there are more ways I could consolidate responsiveness rules to decrease the complexity of the code and make it easier to navigate, or easier to add more sections in the future. Therefore another future fix I would make is refactoring the responsiveness style rules to make the CSS simpler and cleaner.
 
----
 ## Bug Fixes
----
 
 Signed up page box overlap with footer
 - On either short or narrow screen sizes, the "thank you for signing up to the newsletter" box overlapped with the footer at the bottom. 
@@ -377,9 +368,7 @@ Nav bar misplaced and wrapping issue on smaller screens
 Welcome logo and headings widths on narrow screens
 - On some narrow screen sizes (e.g. Galaxy Fold), the logo and some headings were wider than the screen and caused horizontal scrolling and layout distortion. I fixed this by adding media queries at 330px to target these issues on narrow screens by reducing the size of all text and of the logo and headings elements. This layout looks a little unbalanced, and in future a burger menu would be a better design solution.
 
----
 ## Known Bugs and Future Fixes
----
 
 Page heading sections line break on small screens
 - On small screen sizes, h1 breaks onto multiple lines and automatically takes up the full width of the parent. In future I would like to find a way for the width of the element to "shrink-wrap" to stay the width of the text content so the padding with background colour does not extend to the edges of the section.
@@ -387,9 +376,7 @@ Page heading sections line break on small screens
 Website performance
 - When running the site pages through Chrome Lighthouse, performance was flagged as an issue. This was in part due to large image sizes, so I re-uploaded several of the images at reduced file sizes. However, performance could still be improved through further image compression and other approaches.
 
----
 ## Testing
----
 
 ### HTML Validator
 - All pages passed through the official <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator</a> with no errors
@@ -409,15 +396,14 @@ Website performance
 - No errors were flagged
 
 ### Personal Use
-- The developer carried out testing through several avenues:
+- The developer carried out testing through various avenues:
     - Chrome devtools was used to ensure website layout looks good and is responsive on several different device sizes
     - Tested the site several on Chrome, Firefox and Safari, and on a laptop and mobile device, checking styles, content and responsiveness
     - Ensured all links work, external links open in new tab, form inputs are required and validated
 - Friends and family tested the website to test user experience, design appeal, ensure understandable structure on first visit and to look for any bugs
 
----
 ## Deployment
----
+
 The project was deployed using GitHub pages
 
 The steps to deploy were as follows:
@@ -429,36 +415,34 @@ The steps to deploy were as follows:
 - Click Save
 - After waiting for the site to load and refreshing the page, the live site is available at the URL provided
 
----
 ## Attributions
----
 
 ### Book Image and Description Attributions
 
-**The Kingdoms**
+#### The Kingdoms
 
 - cover image - <a href="https://www.goodreads.com/book/show/54680112-the-kingdoms" target="_blank">Goodreads</a>
 - Home Page taster description, Club Page synopsis - <a href="https://www.goodreads.com/book/show/54680112-the-kingdoms" target="_blank">Goodreads</a>
 - Club Page review quotes - <a href="https://www.waterstones.com/book/the-kingdoms/natasha-pulley/9781526623157" target="_blank">Waterstones</a>
 
-**The Fair Botanists**
+#### The Fair Botanists
 
 - cover image - <a href="https://www.hachette.co.uk/titles/sara-sheridan-3/the-fair-botanists/9781529336238/" target="_blank">Hachette</a>
 - Home Page taster description, Recommendations Page synopsis and review - <a href="https://www.waterstones.com/book/the-fair-botanists/sara-sheridan/9781529336221" target="_blank">Waterstones</a>
 
-**Hamnet**
+#### Hamnet
 
 - cover image - <a href="https://www.maggieofarrell.com/titles/maggie-ofarrell/hamnet/9781472223791/" target="_blank">Maggie O'Farrell's official website</a>
 - Home Page taster description, Recommendations Page synopsis, description and review - <a href="https://www.waterstones.com/book/hamnet/maggie-ofarrell/9781472223821" target="_blank">Waterstones</a>
 
-**Young Mungo**
+#### Young Mungo
 
 - cover image - <a href="https://www.amazon.co.uk/Young-Mungo-Douglas-Stuart/dp/1529068762" target="_blank">Amazon</a>
 - Home Page taster description, Recommendations Page synopsis, description and review - <a href="https://www.waterstones.com/book/young-mungo/douglas-stuart/9781529068764" target="_blank">Waterstones</a>
 
 ### Other Attributions
 
-**All Pages**
+#### All Pages
 
 Favicon
 - <a href="https://icons8.com/icon/72nVaLzg9k5q/books" target="_blank">Books</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>
@@ -466,20 +450,20 @@ Favicon
 Landing and page headings image
 - Photo by Suzy Hazelwood, <a href="https://www.pexels.com/photo/assorted-title-books-1887609/" target="_blank">Pexels</a>
 
-**Home Page**
+#### Home Page
 
 - Stores section image - photo by cottonbro studio, <a href="https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-reading-books-4855552/" target="_blank">Pexels</a>
 
-**Club Page**
+#### Club Page
 
 - About image one - photo by cottonbro studio, <a href="https://www.pexels.com/photo/woman-in-gray-robe-reading-book-4861330/" target="_blank">Pexels</a>
 
 - About image two - photo by Lisa Fotios, <a href="https://www.pexels.com/photo/pink-rose-in-vase-centerpiece-on-brown-wooden-table-1024359/" target=_blank>Pexels</a>
 
-**Recommendations Page** 
+#### Recommendations Page
 - Scottish Literature Classics list - <a href="https://www.bookscrolling.com/best-scottish-fiction-time/" target="_blank">Bookscrolling</a>
 
-**Stores Page**
+#### Stores Page
 
 Toppings
 - store image - <a href="https://twitter.com/toppingsedin/status/1343137443965521922" target="_blank">Twitter</a>
