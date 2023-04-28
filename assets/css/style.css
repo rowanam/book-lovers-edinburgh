@@ -138,6 +138,7 @@ footer > div{
     display: inline-block;
     margin: 0 20px 0 0;
     width: 140px;
+    font-size: 1.17rem;
 }
 
 #footer-newsletter-signup-heading span{
